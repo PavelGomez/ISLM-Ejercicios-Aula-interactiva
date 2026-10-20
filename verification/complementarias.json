@@ -1,0 +1,52 @@
+[
+  {
+    "file": "docs/guia_estudiante.html",
+    "status": "PASS"
+  },
+  {
+    "file": "docs/memoria_docente.html",
+    "status": "PASS"
+  },
+  {
+    "file": "docs/guion_presentacion.html",
+    "status": "PASS"
+  },
+  {
+    "file": "docs/verificacion.html",
+    "status": "PASS"
+  },
+  {
+    "parameter": "M",
+    "input": "880",
+    "status": "sincronizado"
+  },
+  {
+    "parameter": "P",
+    "input": "2,2",
+    "status": "sincronizado"
+  },
+  {
+    "parameter": "k",
+    "input": "0,45",
+    "status": "sincronizado"
+  },
+  {
+    "parameter": "h",
+    "input": "20",
+    "status": "sincronizado"
+  },
+  {
+    "capsule": "bank",
+    "status": "PASS"
+  },
+  {
+    "filePlayback": "file://",
+    "seek": "10 seconds",
+    "status": "PASS"
+  },
+  {
+    "filePlayback": "file://",
+    "glossaryPause": true,
+    "status": "PASS"
+  }
+]

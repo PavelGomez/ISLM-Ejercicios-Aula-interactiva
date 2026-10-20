@@ -1,0 +1,14 @@
+{
+  "name": "islm-ejercicios-aula-interactiva",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cadena de ejercicios IS–LM de Macroeconomía I.",
+  "scripts": {
+    "test": "node tests/engine.test.js && node tests/check-publication.js",
+    "test:browser": "node tests/browser.test.js && node tests/presentation.test.js && node tests/notation.test.js",
+    "preview": "python3 tests/serve.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

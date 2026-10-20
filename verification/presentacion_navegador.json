@@ -1,0 +1,810 @@
+{
+  "assertions": 203,
+  "errors": [],
+  "screens": [
+    "presentacion-escritorio.png",
+    "presentacion-lm-escritorio.png",
+    "presentacion-impuestos-tableta.png",
+    "presentacion-movil.png",
+    "presentacion-is-movil.png",
+    "presentacion-inversion-movil.png",
+    "presentacion-inversion-grises.png"
+  ],
+  "layouts": [
+    {
+      "label": "1440 diapositiva 1",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 2",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 3",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 4",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 5",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 6",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 7",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 8",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 9",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 10",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 11",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 12",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 13",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 14",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 15",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 16",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 17",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 18",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 19",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 20",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 21",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 22",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 23",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 24",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 25",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 26",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 27",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "1440 diapositiva 28",
+      "width": 1440,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 1",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 2",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 3",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 4",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 5",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 6",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 7",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 8",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 9",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 10",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 11",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 12",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 13",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 14",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 15",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 16",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 17",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 18",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 19",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 20",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 21",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 22",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 23",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 24",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 25",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 26",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 27",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "820 diapositiva 28",
+      "width": 820,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 1",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 2",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 3",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 4",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 5",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 6",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 7",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 8",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 9",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 10",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 11",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 12",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 13",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 14",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 15",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 16",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 17",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 18",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 19",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 20",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 21",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 22",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 23",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 24",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 25",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 26",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 27",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "390 diapositiva 28",
+      "width": 390,
+      "overflow": false,
+      "outside": [],
+      "overlaps": []
+    }
+  ],
+  "checks": [
+    "Presentación narrada como entrada inicial",
+    "Ocho capítulos",
+    "28 diapositivas",
+    "Sin reproducción automática",
+    "Audio real se reproduce",
+    "Acelerar a 1,5×",
+    "Avance de diez segundos",
+    "Retroceso de diez segundos",
+    "Adelanta diapositiva",
+    "Cambio de diapositiva queda pausado",
+    "Retrocede diapositiva",
+    "Barra temporal cruza diapositivas del capítulo",
+    "Glosario pausa audio",
+    "Regreso del glosario queda pausado",
+    "Ampliar figura pausa audio",
+    "Continuar escuchando desde la figura",
+    "Figura conserva instante",
+    "Ir a practicar pausa narración",
+    "Regreso conserva diapositiva",
+    "Regreso conserva instante",
+    "Regreso conserva velocidad",
+    "Laboratorio pausa narración",
+    "Autoavanza y reproduce dentro del capítulo",
+    "Detención y cierre de capítulo",
+    "Capítulo no salta automáticamente",
+    "Continúa al capítulo siguiente explícitamente",
+    "Texto de locución disponible",
+    "Espacio reproduce",
+    "Espacio pausa",
+    "Ampliar diapositiva",
+    "Posición persiste al recargar",
+    "Recarga no inicia audio",
+    "Audio de diapositiva 1 a 1440",
+    "1440 diapositiva 1 sin desbordamiento de página",
+    "Audio de diapositiva 2 a 1440",
+    "1440 diapositiva 2 sin desbordamiento de página",
+    "Audio de diapositiva 3 a 1440",
+    "1440 diapositiva 3 sin desbordamiento de página",
+    "Audio de diapositiva 4 a 1440",
+    "1440 diapositiva 4 sin desbordamiento de página",
+    "Audio de diapositiva 5 a 1440",
+    "1440 diapositiva 5 sin desbordamiento de página",
+    "Audio de diapositiva 6 a 1440",
+    "1440 diapositiva 6 sin desbordamiento de página",
+    "Audio de diapositiva 7 a 1440",
+    "1440 diapositiva 7 sin desbordamiento de página",
+    "Audio de diapositiva 8 a 1440",
+    "1440 diapositiva 8 sin desbordamiento de página",
+    "Audio de diapositiva 9 a 1440",
+    "1440 diapositiva 9 sin desbordamiento de página",
+    "Audio de diapositiva 10 a 1440",
+    "1440 diapositiva 10 sin desbordamiento de página",
+    "Audio de diapositiva 11 a 1440",
+    "1440 diapositiva 11 sin desbordamiento de página",
+    "Audio de diapositiva 12 a 1440",
+    "1440 diapositiva 12 sin desbordamiento de página",
+    "Audio de diapositiva 13 a 1440",
+    "1440 diapositiva 13 sin desbordamiento de página",
+    "Audio de diapositiva 14 a 1440",
+    "1440 diapositiva 14 sin desbordamiento de página",
+    "Audio de diapositiva 15 a 1440",
+    "1440 diapositiva 15 sin desbordamiento de página",
+    "Audio de diapositiva 16 a 1440",
+    "1440 diapositiva 16 sin desbordamiento de página",
+    "Audio de diapositiva 17 a 1440",
+    "1440 diapositiva 17 sin desbordamiento de página",
+    "Audio de diapositiva 18 a 1440",
+    "1440 diapositiva 18 sin desbordamiento de página",
+    "Audio de diapositiva 19 a 1440",
+    "1440 diapositiva 19 sin desbordamiento de página",
+    "Audio de diapositiva 20 a 1440",
+    "1440 diapositiva 20 sin desbordamiento de página",
+    "Audio de diapositiva 21 a 1440",
+    "1440 diapositiva 21 sin desbordamiento de página",
+    "Audio de diapositiva 22 a 1440",
+    "1440 diapositiva 22 sin desbordamiento de página",
+    "Audio de diapositiva 23 a 1440",
+    "1440 diapositiva 23 sin desbordamiento de página",
+    "Audio de diapositiva 24 a 1440",
+    "1440 diapositiva 24 sin desbordamiento de página",
+    "Audio de diapositiva 25 a 1440",
+    "1440 diapositiva 25 sin desbordamiento de página",
+    "Audio de diapositiva 26 a 1440",
+    "1440 diapositiva 26 sin desbordamiento de página",
+    "Audio de diapositiva 27 a 1440",
+    "1440 diapositiva 27 sin desbordamiento de página",
+    "Audio de diapositiva 28 a 1440",
+    "1440 diapositiva 28 sin desbordamiento de página",
+    "Audio de diapositiva 1 a 820",
+    "820 diapositiva 1 sin desbordamiento de página",
+    "Audio de diapositiva 2 a 820",
+    "820 diapositiva 2 sin desbordamiento de página",
+    "Audio de diapositiva 3 a 820",
+    "820 diapositiva 3 sin desbordamiento de página",
+    "Audio de diapositiva 4 a 820",
+    "820 diapositiva 4 sin desbordamiento de página",
+    "Audio de diapositiva 5 a 820",
+    "820 diapositiva 5 sin desbordamiento de página",
+    "Audio de diapositiva 6 a 820",
+    "820 diapositiva 6 sin desbordamiento de página",
+    "Audio de diapositiva 7 a 820",
+    "820 diapositiva 7 sin desbordamiento de página",
+    "Audio de diapositiva 8 a 820",
+    "820 diapositiva 8 sin desbordamiento de página",
+    "Audio de diapositiva 9 a 820",
+    "820 diapositiva 9 sin desbordamiento de página",
+    "Audio de diapositiva 10 a 820",
+    "820 diapositiva 10 sin desbordamiento de página",
+    "Audio de diapositiva 11 a 820",
+    "820 diapositiva 11 sin desbordamiento de página",
+    "Audio de diapositiva 12 a 820",
+    "820 diapositiva 12 sin desbordamiento de página",
+    "Audio de diapositiva 13 a 820",
+    "820 diapositiva 13 sin desbordamiento de página",
+    "Audio de diapositiva 14 a 820",
+    "820 diapositiva 14 sin desbordamiento de página",
+    "Audio de diapositiva 15 a 820",
+    "820 diapositiva 15 sin desbordamiento de página",
+    "Audio de diapositiva 16 a 820",
+    "820 diapositiva 16 sin desbordamiento de página",
+    "Audio de diapositiva 17 a 820",
+    "820 diapositiva 17 sin desbordamiento de página",
+    "Audio de diapositiva 18 a 820",
+    "820 diapositiva 18 sin desbordamiento de página",
+    "Audio de diapositiva 19 a 820",
+    "820 diapositiva 19 sin desbordamiento de página",
+    "Audio de diapositiva 20 a 820",
+    "820 diapositiva 20 sin desbordamiento de página",
+    "Audio de diapositiva 21 a 820",
+    "820 diapositiva 21 sin desbordamiento de página",
+    "Audio de diapositiva 22 a 820",
+    "820 diapositiva 22 sin desbordamiento de página",
+    "Audio de diapositiva 23 a 820",
+    "820 diapositiva 23 sin desbordamiento de página",
+    "Audio de diapositiva 24 a 820",
+    "820 diapositiva 24 sin desbordamiento de página",
+    "Audio de diapositiva 25 a 820",
+    "820 diapositiva 25 sin desbordamiento de página",
+    "Audio de diapositiva 26 a 820",
+    "820 diapositiva 26 sin desbordamiento de página",
+    "Audio de diapositiva 27 a 820",
+    "820 diapositiva 27 sin desbordamiento de página",
+    "Audio de diapositiva 28 a 820",
+    "820 diapositiva 28 sin desbordamiento de página",
+    "Audio de diapositiva 1 a 390",
+    "390 diapositiva 1 sin desbordamiento de página",
+    "Audio de diapositiva 2 a 390",
+    "390 diapositiva 2 sin desbordamiento de página",
+    "Audio de diapositiva 3 a 390",
+    "390 diapositiva 3 sin desbordamiento de página",
+    "Audio de diapositiva 4 a 390",
+    "390 diapositiva 4 sin desbordamiento de página",
+    "Audio de diapositiva 5 a 390",
+    "390 diapositiva 5 sin desbordamiento de página",
+    "Audio de diapositiva 6 a 390",
+    "390 diapositiva 6 sin desbordamiento de página",
+    "Audio de diapositiva 7 a 390",
+    "390 diapositiva 7 sin desbordamiento de página",
+    "Audio de diapositiva 8 a 390",
+    "390 diapositiva 8 sin desbordamiento de página",
+    "Audio de diapositiva 9 a 390",
+    "390 diapositiva 9 sin desbordamiento de página",
+    "Audio de diapositiva 10 a 390",
+    "390 diapositiva 10 sin desbordamiento de página",
+    "Audio de diapositiva 11 a 390",
+    "390 diapositiva 11 sin desbordamiento de página",
+    "Audio de diapositiva 12 a 390",
+    "390 diapositiva 12 sin desbordamiento de página",
+    "Audio de diapositiva 13 a 390",
+    "390 diapositiva 13 sin desbordamiento de página",
+    "Audio de diapositiva 14 a 390",
+    "390 diapositiva 14 sin desbordamiento de página",
+    "Audio de diapositiva 15 a 390",
+    "390 diapositiva 15 sin desbordamiento de página",
+    "Audio de diapositiva 16 a 390",
+    "390 diapositiva 16 sin desbordamiento de página",
+    "Audio de diapositiva 17 a 390",
+    "390 diapositiva 17 sin desbordamiento de página",
+    "Audio de diapositiva 18 a 390",
+    "390 diapositiva 18 sin desbordamiento de página",
+    "Audio de diapositiva 19 a 390",
+    "390 diapositiva 19 sin desbordamiento de página",
+    "Audio de diapositiva 20 a 390",
+    "390 diapositiva 20 sin desbordamiento de página",
+    "Audio de diapositiva 21 a 390",
+    "390 diapositiva 21 sin desbordamiento de página",
+    "Audio de diapositiva 22 a 390",
+    "390 diapositiva 22 sin desbordamiento de página",
+    "Audio de diapositiva 23 a 390",
+    "390 diapositiva 23 sin desbordamiento de página",
+    "Audio de diapositiva 24 a 390",
+    "390 diapositiva 24 sin desbordamiento de página",
+    "Audio de diapositiva 25 a 390",
+    "390 diapositiva 25 sin desbordamiento de página",
+    "Audio de diapositiva 26 a 390",
+    "390 diapositiva 26 sin desbordamiento de página",
+    "Audio de diapositiva 27 a 390",
+    "390 diapositiva 27 sin desbordamiento de página",
+    "Audio de diapositiva 28 a 390",
+    "390 diapositiva 28 sin desbordamiento de página",
+    "Presentación y audio cargan sin servidor",
+    "Sin errores de JavaScript ni archivos de audio ausentes",
+    "Sin etiquetas superpuestas ni fuera del lienzo en las 84 vistas de presentación"
+  ],
+  "status": "PASS",
+  "layoutWarnings": []
+}

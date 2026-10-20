@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "voice": "em_alex",
+  "language": "es",
+  "slides": [
+    {
+      "slide": 1,
+      "duration": 51.333792,
+      "decode": "PASS",
+      "max_volume_dB": -1.7,
+      "mean_volume_dB": -17.6,
+      "sha256": "4f21009f16f4f0d1410408e1627c5a7b5b76d51bb8ade855f86e9eb9b865bc1c"
+    },
+    {
+      "slide": 2,
+      "duration": 46.439708,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "bdee404fda07cd193e77504c8bd3b2cbd9863849544137f36b6cdc4c06a0f84b"
+    },
+    {
+      "slide": 3,
+      "duration": 52.1575,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.6,
+      "sha256": "a652daa911de5ffcd00f6ef649fc20cd733dacda87e25c8d13398b5dad0d40c6"
+    },
+    {
+      "slide": 4,
+      "duration": 58.275792,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.7,
+      "sha256": "0bfaa72259c9f42dffaa9240b95a1e70dab9fae607a39c2575a146ed53d46dcb"
+    },
+    {
+      "slide": 5,
+      "duration": 71.86775,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.4,
+      "sha256": "99388af3fcede0eb23bdffa34b5f977568f2c1ccd388786e202888642c77e493"
+    },
+    {
+      "slide": 6,
+      "duration": 47.004417,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.7,
+      "sha256": "93105844e314f3d9af2f7cb044733786f85d04021ddcb56a6495d739cc2e965c"
+    },
+    {
+      "slide": 7,
+      "duration": 45.673958,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "92c359d309dff10b2953ecca744b799c91ed901df72e75522324d5212089c50e"
+    },
+    {
+      "slide": 8,
+      "duration": 80.398417,
+      "decode": "PASS",
+      "max_volume_dB": -1.9,
+      "mean_volume_dB": -17.5,
+      "sha256": "b252af6bd5f098235d48b76682b1963a0b016df842a07ba1ce2f2d5d08fc492a"
+    },
+    {
+      "slide": 9,
+      "duration": 63.956542,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "4e85ec85ddfb30a0eb12d1c37d2cb5fe5ec341b008a93abe07d208de5c93228a"
+    },
+    {
+      "slide": 10,
+      "duration": 56.853875,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "684007c24bda570da1533a0ff0e5619cd7a5a8804ece7aea365c683e6789e7c5"
+    },
+    {
+      "slide": 11,
+      "duration": 53.083542,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "a44f28415ffe6eaba3445e854751253b38c35471249a5d1b070bbeb5d04e6166"
+    },
+    {
+      "slide": 12,
+      "duration": 49.67675,
+      "decode": "PASS",
+      "max_volume_dB": -1.7,
+      "mean_volume_dB": -18.4,
+      "sha256": "9ac3d55e41d66af5e1c9a0688c0144b21b11fcfe8e6b1e77561e8b00faf0a1d8"
+    },
+    {
+      "slide": 13,
+      "duration": 52.23225,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "1044e6588e214bb782022a700c4a44b94715614822c1b88009f1df224e5dce99"
+    },
+    {
+      "slide": 14,
+      "duration": 52.655542,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "9f6a9b02552d0252f37ca057e28f95f4a8e2d60c50ddaff83a597721e0381fef"
+    },
+    {
+      "slide": 15,
+      "duration": 54.361958,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "1348ff789e8e0062b5bc9a4051a830882ab96c9df1889116ecaa7a31530ca026"
+    },
+    {
+      "slide": 16,
+      "duration": 55.137625,
+      "decode": "PASS",
+      "max_volume_dB": -1.7,
+      "mean_volume_dB": -17.4,
+      "sha256": "945ee56559b42200a935f2684c27261c07506672e1241b6c35d8bac571471334"
+    },
+    {
+      "slide": 17,
+      "duration": 52.18225,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.7,
+      "sha256": "0b3257952a593919bbb617ab443115fcbe3a9e91daf2e8b6d16e6eedbecdd0dc"
+    },
+    {
+      "slide": 18,
+      "duration": 55.330083,
+      "decode": "PASS",
+      "max_volume_dB": -1.7,
+      "mean_volume_dB": -17.6,
+      "sha256": "484e1915ca46c4ed73537173e24c9fb939e66ec7c5fab7097e02439b7dd52622"
+    },
+    {
+      "slide": 19,
+      "duration": 48.614917,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "20f5bf8cf9e3e9bdf3d8b8998cfd96cb0c6ed822f659294ffb84af500e26110b"
+    },
+    {
+      "slide": 20,
+      "duration": 50.844833,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.4,
+      "sha256": "e1b9851bc4a8765faab35944db8af8a0ff574efc4975ed5d56d26d1ba9e041d0"
+    },
+    {
+      "slide": 21,
+      "duration": 56.745875,
+      "decode": "PASS",
+      "max_volume_dB": -1.9,
+      "mean_volume_dB": -17.4,
+      "sha256": "2291caf9450720649bb9769c9f0e097f71820c1a5ef633288c2de3d6db31be38"
+    },
+    {
+      "slide": 22,
+      "duration": 55.405208,
+      "decode": "PASS",
+      "max_volume_dB": -1.9,
+      "mean_volume_dB": -17.7,
+      "sha256": "4484839fe6a2d335dfe6663c356e66e071844cb2e049e3ec678eb80676663cf5"
+    },
+    {
+      "slide": 23,
+      "duration": 53.983542,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -18.4,
+      "sha256": "d4d30d83d2ffd65312454a54e5cddb407fa635c5e703d262958878168c47eed2"
+    },
+    {
+      "slide": 24,
+      "duration": 51.440375,
+      "decode": "PASS",
+      "max_volume_dB": -1.9,
+      "mean_volume_dB": -17.5,
+      "sha256": "1624f9ae10ff7fbff152e682fe0663afc2535f8da3d4eea9d6915c87ce608b36"
+    },
+    {
+      "slide": 25,
+      "duration": 52.430083,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.5,
+      "sha256": "9af6c79645328cc4f0b2f57975713e47cec6f867cacdeb460945e9e5043bbf49"
+    },
+    {
+      "slide": 26,
+      "duration": 52.791583,
+      "decode": "PASS",
+      "max_volume_dB": -1.7,
+      "mean_volume_dB": -17.6,
+      "sha256": "cf79484df0c6bb03d5059f2547b0b2e180ec90770892cbc83365c7b5efa4a045"
+    },
+    {
+      "slide": 27,
+      "duration": 53.631583,
+      "decode": "PASS",
+      "max_volume_dB": -1.8,
+      "mean_volume_dB": -17.7,
+      "sha256": "3179899fd61fd64f67574f02262cc1093deb675d8c3a82272d403a41afeb900f"
+    },
+    {
+      "slide": 28,
+      "duration": 51.622167,
+      "decode": "PASS",
+      "max_volume_dB": -1.9,
+      "mean_volume_dB": -17.6,
+      "sha256": "0d2bc39d14a7d62fd53fb99790f06249bd4a30d463d73e6a8213486844192780"
+    }
+  ],
+  "total_seconds": 1526.131917,
+  "scope": "Decodificación y niveles de los 28 audios. Revisión escrita del guion y lectura de ecuaciones; no se afirma una audición humana completa."
+}

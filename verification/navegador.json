@@ -1,0 +1,614 @@
+{
+  "status": "PASS",
+  "assertions": 135,
+  "errors": [],
+  "checks": [
+    "Carga inicial",
+    "inicio desktop: sin desbordamiento de página",
+    "lm: desarrollo visible",
+    "lm desktop: sin desbordamiento de página",
+    "is: desarrollo visible",
+    "is desktop: sin desbordamiento de página",
+    "impuestos: desarrollo visible",
+    "impuestos desktop: sin desbordamiento de página",
+    "equilibrio: desarrollo visible",
+    "equilibrio desktop: sin desbordamiento de página",
+    "politicas: desarrollo visible",
+    "politicas desktop: sin desbordamiento de página",
+    "inversion: desarrollo visible",
+    "inversion desktop: sin desbordamiento de página",
+    "sintesis: desarrollo visible",
+    "sintesis desktop: sin desbordamiento de página",
+    "Retroalimentación de signo",
+    "Tres pistas progresivas",
+    "Detecta convención de tasa",
+    "Respuesta numérica correcta",
+    "Solución sincronizada pyme fixed",
+    "equilibrio pyme fixed: sin desbordamiento de página",
+    "Solución sincronizada pyme proportional",
+    "equilibrio pyme proportional: sin desbordamiento de página",
+    "Solución sincronizada minera fixed",
+    "equilibrio minera fixed: sin desbordamiento de página",
+    "Solución sincronizada minera proportional",
+    "equilibrio minera proportional: sin desbordamiento de página",
+    "Restablece recorrido",
+    "Slider LM y tabla",
+    "Slider IS",
+    "Escenario laboratorio pyme fixed G",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio pyme fixed m",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio pyme proportional G",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio pyme proportional m",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio minera fixed G",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio minera fixed m",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio minera proportional G",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Escenario laboratorio minera proportional m",
+    "Shock independiente desde base",
+    "No acumula por defecto",
+    "Acumula G y dinero explícitamente",
+    "Base de comparación acumulada es el equilibrio previo",
+    "lab desktop: sin desbordamiento de página",
+    "Bloquea combinación no admisible",
+    "Oculta resultados inválidos",
+    "Compara edición con calibración",
+    "Dinero editado se sincroniza",
+    "base editada: sin desbordamiento de página",
+    "Glosario por teclado",
+    "Búsqueda de glosario",
+    "Cierra con Escape",
+    "Retorna foco al botón",
+    "Vista de cuentas",
+    "Vista de comprobaciones",
+    "CSV completo de ocho filas",
+    "Reflexión persiste",
+    "Marca de progreso",
+    "Progreso persiste",
+    "Reinicia progreso",
+    "Modo reducido no inicia reproducción",
+    "Secuencia por pasos",
+    "Reproducción explícita",
+    "Pausa explícita",
+    "proyeccion inicio: sin desbordamiento de página",
+    "proyeccion lm: sin desbordamiento de página",
+    "proyeccion is: sin desbordamiento de página",
+    "proyeccion impuestos: sin desbordamiento de página",
+    "proyeccion inversion: sin desbordamiento de página",
+    "proyeccion laboratorio: sin desbordamiento de página",
+    "tablet inicio: sin desbordamiento de página",
+    "tablet lm: sin desbordamiento de página",
+    "tablet is: sin desbordamiento de página",
+    "tablet impuestos: sin desbordamiento de página",
+    "tablet inversion: sin desbordamiento de página",
+    "tablet laboratorio: sin desbordamiento de página",
+    "movil inicio: sin desbordamiento de página",
+    "movil lm: sin desbordamiento de página",
+    "movil is: sin desbordamiento de página",
+    "movil impuestos: sin desbordamiento de página",
+    "movil inversion: sin desbordamiento de página",
+    "movil laboratorio: sin desbordamiento de página",
+    "movil-estrecho inicio: sin desbordamiento de página",
+    "movil-estrecho lm: sin desbordamiento de página",
+    "movil-estrecho is: sin desbordamiento de página",
+    "movil-estrecho impuestos: sin desbordamiento de página",
+    "movil-estrecho inversion: sin desbordamiento de página",
+    "movil-estrecho laboratorio: sin desbordamiento de página",
+    "ampliada 1440 is pyme fixed: sin desbordamiento de página",
+    "ampliada 1440 is pyme proportional: sin desbordamiento de página",
+    "ampliada 1440 is minera fixed: sin desbordamiento de página",
+    "ampliada 1440 is minera proportional: sin desbordamiento de página",
+    "ampliada 1440 impuestos pyme fixed: sin desbordamiento de página",
+    "ampliada 1440 impuestos pyme proportional: sin desbordamiento de página",
+    "ampliada 1440 impuestos minera fixed: sin desbordamiento de página",
+    "ampliada 1440 impuestos minera proportional: sin desbordamiento de página",
+    "ampliada 1440 inversion pyme fixed: sin desbordamiento de página",
+    "ampliada 1440 inversion pyme proportional: sin desbordamiento de página",
+    "ampliada 1440 inversion minera fixed: sin desbordamiento de página",
+    "ampliada 1440 inversion minera proportional: sin desbordamiento de página",
+    "ampliada 390 is pyme fixed: sin desbordamiento de página",
+    "ampliada 390 is pyme proportional: sin desbordamiento de página",
+    "ampliada 390 is minera fixed: sin desbordamiento de página",
+    "ampliada 390 is minera proportional: sin desbordamiento de página",
+    "ampliada 390 impuestos pyme fixed: sin desbordamiento de página",
+    "ampliada 390 impuestos pyme proportional: sin desbordamiento de página",
+    "ampliada 390 impuestos minera fixed: sin desbordamiento de página",
+    "ampliada 390 impuestos minera proportional: sin desbordamiento de página",
+    "ampliada 390 inversion pyme fixed: sin desbordamiento de página",
+    "ampliada 390 inversion pyme proportional: sin desbordamiento de página",
+    "ampliada 390 inversion minera fixed: sin desbordamiento de página",
+    "ampliada 390 inversion minera proportional: sin desbordamiento de página",
+    "docs/guia_estudiante.html: sin desbordamiento de página",
+    "Documento docs/guia_estudiante.html",
+    "docs/memoria_docente.html: sin desbordamiento de página",
+    "Documento docs/memoria_docente.html",
+    "data/escenarios.html: sin desbordamiento de página",
+    "Documento data/escenarios.html",
+    "Funciona con apertura directa sin servidor",
+    "Sin etiquetas SVG fuera del lienzo ni textos superpuestos en la matriz de revisión",
+    "Sin errores JavaScript de consola"
+  ],
+  "layout": [
+    {
+      "label": "inicio desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "lm desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "is desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "impuestos desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "equilibrio desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "politicas desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "inversion desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "sintesis desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "equilibrio pyme fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "equilibrio pyme proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "equilibrio minera fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "equilibrio minera proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "lab desktop",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "base editada",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion inicio",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion lm",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion is",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion impuestos",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion inversion",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "proyeccion laboratorio",
+      "bodyWidth": 1920,
+      "viewport": 1920,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet inicio",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet lm",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet is",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet impuestos",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet inversion",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "tablet laboratorio",
+      "bodyWidth": 820,
+      "viewport": 820,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil inicio",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil lm",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil is",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil impuestos",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil inversion",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil laboratorio",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho inicio",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho lm",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho is",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho impuestos",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho inversion",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "movil-estrecho laboratorio",
+      "bodyWidth": 360,
+      "viewport": 360,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 is pyme fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 is pyme proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 is minera fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 is minera proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 impuestos pyme fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 impuestos pyme proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 impuestos minera fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 impuestos minera proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 inversion pyme fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 inversion pyme proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 inversion minera fixed",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 1440 inversion minera proportional",
+      "bodyWidth": 1440,
+      "viewport": 1440,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 is pyme fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 is pyme proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 is minera fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 is minera proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 impuestos pyme fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 impuestos pyme proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 impuestos minera fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 impuestos minera proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 inversion pyme fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 inversion pyme proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 inversion minera fixed",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "ampliada 390 inversion minera proportional",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "docs/guia_estudiante.html",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "docs/memoria_docente.html",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    },
+    {
+      "label": "data/escenarios.html",
+      "bodyWidth": 390,
+      "viewport": 390,
+      "outside": [],
+      "overlaps": []
+    }
+  ],
+  "screens": [
+    "inicio-desktop.png",
+    "lm-desktop.png",
+    "is-desktop.png",
+    "impuestos-desktop.png",
+    "inversion-desktop.png",
+    "laboratorio-desktop.png",
+    "is-proyeccion.png",
+    "impuestos-tablet.png",
+    "inicio-movil.png",
+    "lm-movil.png",
+    "is-movil.png",
+    "inversion-movil.png",
+    "laboratorio-movil.png"
+  ]
+}

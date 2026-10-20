@@ -1,0 +1,2585 @@
+{
+  "title": "IS–LM · Del mecanismo al resultado",
+  "voice": "em_alex",
+  "language": "es",
+  "chapters": [
+    {
+      "id": "base",
+      "index": 0,
+      "title": "Cómo estudiar y desde dónde partimos",
+      "exercise": "inicio"
+    },
+    {
+      "id": "lm",
+      "index": 1,
+      "title": "Cómo nace LM",
+      "exercise": "lm"
+    },
+    {
+      "id": "is",
+      "index": 2,
+      "title": "Cómo nace IS",
+      "exercise": "is"
+    },
+    {
+      "id": "impuestos",
+      "index": 3,
+      "title": "Impuestos y estabilización",
+      "exercise": "impuestos"
+    },
+    {
+      "id": "equilibrio",
+      "index": 4,
+      "title": "Resolver y cerrar las cuentas",
+      "exercise": "equilibrio"
+    },
+    {
+      "id": "politicas",
+      "index": 5,
+      "title": "Instrumentos y multiplicadores",
+      "exercise": "politicas"
+    },
+    {
+      "id": "inversion",
+      "index": 6,
+      "title": "Desplazamiento e inversión",
+      "exercise": "inversion"
+    },
+    {
+      "id": "sintesis",
+      "index": 7,
+      "title": "Comparar y discutir",
+      "exercise": "sintesis"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "key": "welcome",
+      "title": "Dos mercados, una cadena de ejercicios",
+      "subtitle": "Predice, construye y comprueba antes de recomendar.",
+      "paragraphs": [
+        "Bienvenidas y bienvenidos. Esta clase conserva la forma de trabajo de las aulas anteriores. Puedes escuchar por capítulos, adelantar o retroceder diapositivas, cambiar la velocidad y detenerte para explorar. La reproducción comienza solo cuando pulses Escuchar.",
+        "La presentación es el hilo principal. Los ejercicios desarrollados y el laboratorio la complementan. Al salir para practicar, el audio se pausa. Cuando regreses, conservarás la diapositiva y el instante. El glosario también pausa la narración.",
+        "La pregunta que nos acompañará es esta: ¿puede subir la tasa de interés y también la inversión? Responderemos construyendo un modelo y contrastando dos economías alternativas. Las cifras son calibraciones didácticas; no son estimaciones de Chile."
+      ],
+      "audio": "assets/audio/diapositiva-01.mp3",
+      "duration": 51.333792,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.533333333333333,
+          "kind": "heading",
+          "text": "Dos mercados, una cadena de ejercicios"
+        },
+        {
+          "start": 3.533333333333333,
+          "end": 4.014102564102564,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.014102564102564,
+          "end": 19.663541666666667,
+          "kind": "speech",
+          "text": "Bienvenidas y bienvenidos. Esta clase conserva la forma de trabajo de las aulas anteriores. Puedes escuchar por capítulos, adelantar o retroceder diapositivas, cambiar la velocidad y detenerte para explorar. La reproducción comienza solo cuando pulses Escuchar."
+        },
+        {
+          "start": 19.663541666666667,
+          "end": 19.85584935897436,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.85584935897436,
+          "end": 20.096233974358974,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.096233974358974,
+          "end": 35.28830128205128,
+          "kind": "speech",
+          "text": "La presentación es el hilo principal. Los ejercicios desarrollados y el laboratorio la complementan. Al salir para practicar, el audio se pausa. Cuando regreses, conservarás la diapositiva y el instante. El glosario también pausa la narración."
+        },
+        {
+          "start": 35.28830128205128,
+          "end": 35.48060897435897,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.48060897435897,
+          "end": 35.720993589743586,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.720993589743586,
+          "end": 50.29639423076923,
+          "kind": "speech",
+          "text": "La pregunta que nos acompañará es esta: ¿puede subir la tasa de interés y también la inversión? Responderemos construyendo un modelo y contrastando dos economías alternativas. Las cifras son calibraciones didácticas; no son estimaciones de Chile."
+        },
+        {
+          "start": 50.29639423076923,
+          "end": 50.488701923076924,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.488701923076924,
+          "end": 50.72908653846154,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.72908653846154,
+          "end": 51.35408653846154,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "key": "map",
+      "title": "Las decisiones se conectan en Y e i",
+      "subtitle": "Bienes y dinero deben compartir el mismo producto y la misma tasa.",
+      "paragraphs": [
+        "Los hogares reciben ingreso, pagan impuestos y eligen consumo y ahorro privado. Las empresas deciden inversión considerando el nivel de actividad y la tasa de interés. El gobierno compra bienes y recauda impuestos.",
+        "En el mercado de bienes buscamos que el gasto planeado coincida con la producción. Esa condición construye la curva i ese. Quienes mantienen dinero demandan liquidez para transacciones y la comparan con el rendimiento de otros activos. La igualdad entre oferta y demanda real de dinero construye ele eme.",
+        "Las curvas se encuentran en un mismo producto, ye, y una misma tasa, i. Las flechas del mapa expresan relaciones del modelo. No establecen por sí solas una trayectoria temporal de ajuste."
+      ],
+      "audio": "assets/audio/diapositiva-02.mp3",
+      "duration": 46.439708,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.7282051282051283,
+          "kind": "heading",
+          "text": "Las decisiones se conectan en Y e i"
+        },
+        {
+          "start": 2.7282051282051283,
+          "end": 3.208974358974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.208974358974359,
+          "end": 15.813060897435895,
+          "kind": "speech",
+          "text": "Los hogares reciben ingreso, pagan impuestos y eligen consumo y ahorro privado. Las empresas deciden inversión considerando el nivel de actividad y la tasa de interés. El gobierno compra bienes y recauda impuestos."
+        },
+        {
+          "start": 15.813060897435895,
+          "end": 16.005368589743586,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.005368589743586,
+          "end": 16.245753205128203,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.245753205128203,
+          "end": 33.67676282051281,
+          "kind": "speech",
+          "text": "En el mercado de bienes buscamos que el gasto planeado coincida con la producción. Esa condición construye la curva i ese. Quienes mantienen dinero demandan liquidez para transacciones y la comparan con el rendimiento de otros activos. La igualdad entre oferta y demanda real de dinero construye ele eme."
+        },
+        {
+          "start": 33.67676282051281,
+          "end": 33.86907051282051,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.86907051282051,
+          "end": 34.10945512820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.10945512820513,
+          "end": 45.401802884615385,
+          "kind": "speech",
+          "text": "Las curvas se encuentran en un mismo producto, ye, y una misma tasa, i. Las flechas del mapa expresan relaciones del modelo. No establecen por sí solas una trayectoria temporal de ajuste."
+        },
+        {
+          "start": 45.401802884615385,
+          "end": 45.59411057692308,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.59411057692308,
+          "end": 45.83449519230769,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.83449519230769,
+          "end": 46.45949519230769,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "key": "units",
+      "title": "Cinco significa cinco por ciento",
+      "subtitle": "Un punto porcentual no es lo mismo que un aumento relativo de 1 %.",
+      "paragraphs": [
+        "Fijemos las unidades antes de operar. Producto, consumo, inversión, gasto público, impuestos y ahorro son flujos reales por período. La oferta nominal de dinero es un stock. El precio es la cantidad de dinero nominal que cuesta una unidad real. Dividir dinero por precios entrega saldos reales.",
+        "En todas las ecuaciones, i igual a cinco significa cinco por ciento. Pasar de cinco a seis representa un punto porcentual adicional. No escribimos cero coma cero cinco. Los coeficientes de tasa están calibrados con esta convención.",
+        "El modelo supone economía cerrada, precios fijos y capacidad ociosa. Conservamos constantes las expectativas de inflación y las brechas entre tasas relevantes. Todavía no podemos concluir nada sobre inflación, bienestar, empleo o sostenibilidad de deuda."
+      ],
+      "audio": "assets/audio/diapositiva-03.mp3",
+      "duration": 52.1575,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.215384615384615,
+          "kind": "heading",
+          "text": "Cinco significa cinco por ciento"
+        },
+        {
+          "start": 2.215384615384615,
+          "end": 2.696153846153846,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 2.696153846153846,
+          "end": 20.194591346153842,
+          "kind": "speech",
+          "text": "Fijemos las unidades antes de operar. Producto, consumo, inversión, gasto público, impuestos y ahorro son flujos reales por período. La oferta nominal de dinero es un stock. El precio es la cantidad de dinero nominal que cuesta una unidad real. Dividir dinero por precios entrega saldos reales."
+        },
+        {
+          "start": 20.194591346153842,
+          "end": 20.386899038461536,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.386899038461536,
+          "end": 20.62728365384615,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.62728365384615,
+          "end": 34.97027243589743,
+          "kind": "speech",
+          "text": "En todas las ecuaciones, i igual a cinco significa cinco por ciento. Pasar de cinco a seis representa un punto porcentual adicional. No escribimos cero coma cero cinco. Los coeficientes de tasa están calibrados con esta convención."
+        },
+        {
+          "start": 34.97027243589743,
+          "end": 35.16258012820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.16258012820513,
+          "end": 35.40296474358974,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.40296474358974,
+          "end": 51.11959134615385,
+          "kind": "speech",
+          "text": "El modelo supone economía cerrada, precios fijos y capacidad ociosa. Conservamos constantes las expectativas de inflación y las brechas entre tasas relevantes. Todavía no podemos concluir nada sobre inflación, bienestar, empleo o sostenibilidad de deuda."
+        },
+        {
+          "start": 51.11959134615385,
+          "end": 51.31189903846154,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.31189903846154,
+          "end": 51.55228365384615,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.55228365384615,
+          "end": 52.17728365384615,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": 0,
+      "key": "calibration",
+      "title": "Cuatro casos comparten el mismo equilibrio inicial",
+      "subtitle": "Los interceptos permiten comparar sensibilidades desde una base común.",
+      "paragraphs": [
+        "La base está comprobada. El producto es mil doscientos y la tasa es cinco por ciento. Los impuestos son doscientos cuarenta, tanto con impuestos fijos como con una tasa proporcional de veinte por ciento. El ingreso disponible es novecientos sesenta.",
+        "El consumo es sesenta más cero coma sesenta y cinco por novecientos sesenta: seiscientos ochenta y cuatro. Cada perfil tiene inversión de doscientos setenta y seis. Al sumar doscientos cuarenta de gasto público obtenemos mil doscientos.",
+        "El dinero nominal es ochocientos y el precio es dos: la oferta real es cuatrocientos. La demanda real, eme superíndice de, es cero coma cuarenta por mil doscientos, menos dieciséis por cinco. También da cuatrocientos. Los interceptos de inversión, doscientos setenta y treinta y dos, fueron elegidos para conservar esta referencia. No sumamos ambos perfiles como si fueran sectores de una economía."
+      ],
+      "audio": "assets/audio/diapositiva-04.mp3",
+      "duration": 58.275792,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.2615384615384615,
+          "kind": "heading",
+          "text": "Cuatro casos comparten el mismo equilibrio inicial"
+        },
+        {
+          "start": 3.2615384615384615,
+          "end": 3.742307692307692,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.742307692307692,
+          "end": 18.663221153846152,
+          "kind": "speech",
+          "text": "La base está comprobada. El producto es mil doscientos y la tasa es cinco por ciento. Los impuestos son doscientos cuarenta, tanto con impuestos fijos como con una tasa proporcional de veinte por ciento. El ingreso disponible es novecientos sesenta."
+        },
+        {
+          "start": 18.663221153846152,
+          "end": 18.855528846153845,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 18.855528846153845,
+          "end": 19.09591346153846,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.09591346153846,
+          "end": 33.35084134615384,
+          "kind": "speech",
+          "text": "El consumo es sesenta más cero coma sesenta y cinco por novecientos sesenta: seiscientos ochenta y cuatro. Cada perfil tiene inversión de doscientos setenta y seis. Al sumar doscientos cuarenta de gasto público obtenemos mil doscientos."
+        },
+        {
+          "start": 33.35084134615384,
+          "end": 33.543149038461536,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.543149038461536,
+          "end": 33.783533653846156,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.783533653846156,
+          "end": 53.11722756410256,
+          "kind": "speech",
+          "text": "El dinero nominal es ochocientos y el precio es dos: la oferta real es cuatrocientos. La demanda real, eme superíndice de, es cero coma cuarenta por mil doscientos, menos dieciséis por cinco. También da cuatrocientos. Los interceptos de inversión, doscientos setenta y treinta y dos, fueron elegidos para conservar esta referencia."
+        },
+        {
+          "start": 53.11722756410256,
+          "end": 53.30953525641026,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 53.30953525641026,
+          "end": 57.2380608974359,
+          "kind": "speech",
+          "text": "No sumamos ambos perfiles como si fueran sectores de una economía."
+        },
+        {
+          "start": 57.2380608974359,
+          "end": 57.430368589743594,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 57.430368589743594,
+          "end": 57.670753205128214,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 57.670753205128214,
+          "end": 58.29575320512821,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "key": "money",
+      "title": "Más ingreso aumenta la demanda de dinero",
+      "subtitle": "La tasa mayor compensa ese aumento cuando M/P permanece fijo.",
+      "paragraphs": [
+        "Partimos del mercado de dinero. La oferta real se escribe eme dividido por pe: eme es la oferta nominal y pe es el precio por unidad real. La demanda real se escribe eme superíndice de, donde de significa demanda. Es igual a de sub uno por ye menos de sub dos por i; de manera equivalente, ka por ye menos hache por i. Ye es el ingreso e i es la tasa de interés. De sub uno y ka nombran el mismo coeficiente positivo: cuánto aumenta la demanda real al subir el ingreso en una unidad. De sub dos y hache nombran el mismo coeficiente positivo: cuánto cae esa demanda al aumentar la tasa en un punto porcentual. Usaremos ka y hache en los cálculos. El equilibrio exige que eme dividido por pe sea igual a la demanda real.",
+        "Mantengamos los saldos reales en cuatrocientos. Si aumenta el ingreso, las personas desean más dinero para transacciones. A la tasa inicial aparece exceso de demanda de dinero. Una tasa mayor aumenta el costo de oportunidad de mantener liquidez y reduce su demanda hasta igualar la oferta.",
+        "No confundas este dinero con gasto del período. Estamos igualando dos stocks reales: la cantidad ofrecida y la cantidad deseada."
+      ],
+      "audio": "assets/audio/diapositiva-05.mp3",
+      "duration": 71.86775,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.549358974358974,
+          "kind": "heading",
+          "text": "Más ingreso aumenta la demanda de dinero"
+        },
+        {
+          "start": 3.549358974358974,
+          "end": 4.030128205128205,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.030128205128205,
+          "end": 24.115905448717946,
+          "kind": "speech",
+          "text": "Partimos del mercado de dinero. La oferta real se escribe eme dividido por pe: eme es la oferta nominal y pe es el precio por unidad real. La demanda real se escribe eme superíndice de, donde de significa demanda. Es igual a de sub uno por ye menos de sub dos por i; de manera equivalente, ka por ye menos hache por i. Ye es el ingreso e i es la tasa de interés."
+        },
+        {
+          "start": 24.115905448717946,
+          "end": 24.30821314102564,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 24.30821314102564,
+          "end": 44.741225961538454,
+          "kind": "speech",
+          "text": "De sub uno y ka nombran el mismo coeficiente positivo: cuánto aumenta la demanda real al subir el ingreso en una unidad. De sub dos y hache nombran el mismo coeficiente positivo: cuánto cae esa demanda al aumentar la tasa en un punto porcentual. Usaremos ka y hache en los cálculos. El equilibrio exige que eme dividido por pe sea igual a la demanda real."
+        },
+        {
+          "start": 44.741225961538454,
+          "end": 44.93353365384615,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 44.93353365384615,
+          "end": 45.17391826923077,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.17391826923077,
+          "end": 62.47287660256409,
+          "kind": "speech",
+          "text": "Mantengamos los saldos reales en cuatrocientos. Si aumenta el ingreso, las personas desean más dinero para transacciones. A la tasa inicial aparece exceso de demanda de dinero. Una tasa mayor aumenta el costo de oportunidad de mantener liquidez y reduce su demanda hasta igualar la oferta."
+        },
+        {
+          "start": 62.47287660256409,
+          "end": 62.66518429487179,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 62.66518429487179,
+          "end": 62.905568910256406,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 62.905568910256406,
+          "end": 70.82992788461537,
+          "kind": "speech",
+          "text": "No confundas este dinero con gasto del período. Estamos igualando dos stocks reales: la cantidad ofrecida y la cantidad deseada."
+        },
+        {
+          "start": 70.82992788461537,
+          "end": 71.02223557692307,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 71.02223557692307,
+          "end": 71.2626201923077,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 71.2626201923077,
+          "end": 71.8876201923077,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "key": "lm-build",
+      "title": "Tres equilibrios monetarios construyen una LM",
+      "subtitle": "Los puntos conservan su tasa al pasar de un gráfico al otro.",
+      "paragraphs": [
+        "Despejemos la tasa. Hache por i es igual a ka por ye menos eme dividido por pe. Al dividir por hache queda i igual a menos saldos reales, dividido por hache, más ka dividido por hache, por ye.",
+        "Con nuestra calibración, i es igual a menos veinticinco más cero coma cero dos cinco por ye. Para un ingreso de mil cuarenta, la tasa es uno por ciento. Para mil doscientos, es cinco. Para mil trescientos sesenta, es nueve.",
+        "En el panel de dinero hay una demanda distinta para cada ingreso y una misma oferta vertical. Trasladamos los pares de ingreso y tasa al segundo panel. Los tres puntos recorren una sola ele eme. La pendiente positiva es ka dividido por hache. No hemos desplazado la oferta monetaria."
+      ],
+      "audio": "assets/audio/diapositiva-06.mp3",
+      "duration": 47.004417,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.117948717948718,
+          "kind": "heading",
+          "text": "Tres equilibrios monetarios construyen una LM"
+        },
+        {
+          "start": 3.117948717948718,
+          "end": 3.5987179487179484,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.5987179487179484,
+          "end": 15.120833333333334,
+          "kind": "speech",
+          "text": "Despejemos la tasa. Hache por i es igual a ka por ye menos eme dividido por pe. Al dividir por hache queda i igual a menos saldos reales, dividido por hache, más ka dividido por hache, por ye."
+        },
+        {
+          "start": 15.120833333333334,
+          "end": 15.313141025641025,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 15.313141025641025,
+          "end": 15.553525641025638,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 15.553525641025638,
+          "end": 28.873597756410252,
+          "kind": "speech",
+          "text": "Con nuestra calibración, i es igual a menos veinticinco más cero coma cero dos cinco por ye. Para un ingreso de mil cuarenta, la tasa es uno por ciento. Para mil doscientos, es cinco. Para mil trescientos sesenta, es nueve."
+        },
+        {
+          "start": 28.873597756410252,
+          "end": 29.065905448717942,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 29.065905448717942,
+          "end": 29.30629006410256,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 29.30629006410256,
+          "end": 45.966947115384606,
+          "kind": "speech",
+          "text": "En el panel de dinero hay una demanda distinta para cada ingreso y una misma oferta vertical. Trasladamos los pares de ingreso y tasa al segundo panel. Los tres puntos recorren una sola ele eme. La pendiente positiva es ka dividido por hache. No hemos desplazado la oferta monetaria."
+        },
+        {
+          "start": 45.966947115384606,
+          "end": 46.1592548076923,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 46.1592548076923,
+          "end": 46.39963942307692,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 46.39963942307692,
+          "end": 47.02463942307691,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "key": "lm-shift",
+      "title": "Cambiar la oferta real desplaza LM",
+      "subtitle": "Cambiar Y recorre la curva; cambiar parámetros modifica su posición o pendiente.",
+      "paragraphs": [
+        "Ahora conserva los demás parámetros y aumenta el dinero nominal de ochocientos a ochocientos ochenta. Con el precio en dos, los saldos reales aumentan de cuatrocientos a cuatrocientos cuarenta. A cada ingreso, la tasa compatible con dinero es menor: ele eme se desplaza hacia abajo y a la derecha.",
+        "Un aumento del precio con dinero nominal fijo reduce los saldos reales y tiene el efecto opuesto. Aumentar ka la hace más inclinada. Aumentar hache cambia la pendiente y el intercepto; no es un desplazamiento paralelo.",
+        "La comparación de precios es entre escenarios de precios dados. No representa una trayectoria de inflación. En el laboratorio puedes reproducir cada cambio de manera aislada."
+      ],
+      "audio": "assets/audio/diapositiva-07.mp3",
+      "duration": 45.673958,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.7282051282051283,
+          "kind": "heading",
+          "text": "Cambiar la oferta real desplaza LM"
+        },
+        {
+          "start": 2.7282051282051283,
+          "end": 3.208974358974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.208974358974359,
+          "end": 20.471233974358974,
+          "kind": "speech",
+          "text": "Ahora conserva los demás parámetros y aumenta el dinero nominal de ochocientos a ochocientos ochenta. Con el precio en dos, los saldos reales aumentan de cuatrocientos a cuatrocientos cuarenta. A cada ingreso, la tasa compatible con dinero es menor: ele eme se desplaza hacia abajo y a la derecha."
+        },
+        {
+          "start": 20.471233974358974,
+          "end": 20.663541666666667,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.663541666666667,
+          "end": 20.903926282051284,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.903926282051284,
+          "end": 34.011418269230774,
+          "kind": "speech",
+          "text": "Un aumento del precio con dinero nominal fijo reduce los saldos reales y tiene el efecto opuesto. Aumentar ka la hace más inclinada. Aumentar hache cambia la pendiente y el intercepto; no es un desplazamiento paralelo."
+        },
+        {
+          "start": 34.011418269230774,
+          "end": 34.20372596153847,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.20372596153847,
+          "end": 34.44411057692308,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.44411057692308,
+          "end": 44.634375000000006,
+          "kind": "speech",
+          "text": "La comparación de precios es entre escenarios de precios dados. No representa una trayectoria de inflación. En el laboratorio puedes reproducir cada cambio de manera aislada."
+        },
+        {
+          "start": 44.634375000000006,
+          "end": 44.8266826923077,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 44.8266826923077,
+          "end": 45.06706730769232,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.06706730769232,
+          "end": 45.69206730769231,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "key": "goods",
+      "title": "El gasto planeado debe coincidir con la producción",
+      "subtitle": "La inversión permanece completa: responde a Y y a i.",
+      "paragraphs": [
+        "Pasamos al mercado de bienes. Con impuestos netos fijos, el consumo es ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Te mayúscula es el monto fijo de impuestos netos. Con impuestos proporcionales, el consumo es ce sub cero más ce sub uno por ye menos te minúscula por ye, entre paréntesis. Te minúscula es la tasa tributaria y te por ye es la recaudación. Ce sub cero es consumo autónomo y es positivo; ce sub uno es la propensión marginal a consumir y está entre cero y uno. La inversión es be sub cero más be sub uno por ye, menos be sub dos por i. Todos sus coeficientes son mayores que cero.",
+        "Be sub cero es la inversión autónoma. Be sub uno representa inversión inducida por una unidad adicional del nivel de ingreso. Be sub dos mide cuánto se reduce la inversión por cada punto porcentual adicional de la tasa. Los tres coeficientes son positivos en ambos perfiles. El signo negativo del canal de tasa aparece en la función, delante de be sub dos.",
+        "En equilibrio, ye es igual a consumo más inversión planeada más gasto público. La contabilidad realizada incluye inventarios, pero aquí buscamos que no se acumulen inventarios involuntarios. Esa distinción permite pasar de una identidad contable a una condición de equilibrio de los planes."
+      ],
+      "audio": "assets/audio/diapositiva-08.mp3",
+      "duration": 80.398417,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 4.091025641025642,
+          "kind": "heading",
+          "text": "El gasto planeado debe coincidir con la producción"
+        },
+        {
+          "start": 4.091025641025642,
+          "end": 4.571794871794872,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.571794871794872,
+          "end": 22.972996794871793,
+          "kind": "speech",
+          "text": "Pasamos al mercado de bienes. Con impuestos netos fijos, el consumo es ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Te mayúscula es el monto fijo de impuestos netos. Con impuestos proporcionales, el consumo es ce sub cero más ce sub uno por ye menos te minúscula por ye, entre paréntesis."
+        },
+        {
+          "start": 22.972996794871793,
+          "end": 23.165304487179487,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 23.165304487179487,
+          "end": 40.935496794871796,
+          "kind": "speech",
+          "text": "Te minúscula es la tasa tributaria y te por ye es la recaudación. Ce sub cero es consumo autónomo y es positivo; ce sub uno es la propensión marginal a consumir y está entre cero y uno. La inversión es be sub cero más be sub uno por ye, menos be sub dos por i. Todos sus coeficientes son mayores que cero."
+        },
+        {
+          "start": 40.935496794871796,
+          "end": 41.127804487179496,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 41.127804487179496,
+          "end": 41.36818910256411,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 41.36818910256411,
+          "end": 61.684375,
+          "kind": "speech",
+          "text": "Be sub cero es la inversión autónoma. Be sub uno representa inversión inducida por una unidad adicional del nivel de ingreso. Be sub dos mide cuánto se reduce la inversión por cada punto porcentual adicional de la tasa. Los tres coeficientes son positivos en ambos perfiles. El signo negativo del canal de tasa aparece en la función, delante de be sub dos."
+        },
+        {
+          "start": 61.684375,
+          "end": 61.876682692307696,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 61.876682692307696,
+          "end": 62.11706730769232,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 62.11706730769232,
+          "end": 79.36069711538462,
+          "kind": "speech",
+          "text": "En equilibrio, ye es igual a consumo más inversión planeada más gasto público. La contabilidad realizada incluye inventarios, pero aquí buscamos que no se acumulen inventarios involuntarios. Esa distinción permite pasar de una identidad contable a una condición de equilibrio de los planes."
+        },
+        {
+          "start": 79.36069711538462,
+          "end": 79.55300480769232,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 79.55300480769232,
+          "end": 79.79338942307693,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 79.79338942307693,
+          "end": 80.41838942307693,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "key": "is-algebra",
+      "title": "Reunir los términos de Y permite despejar IS",
+      "subtitle": "A reúne gasto autónomo; a recoge la parte no inducida de cada ronda.",
+      "paragraphs": [
+        "Sustituye las funciones en la condición de bienes. Esta diapositiva usa impuestos fijos: el consumo queda ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Añadimos la inversión completa y el gasto público. Te se mantiene en doscientos cuarenta.",
+        "Distribuye la propensión a consumir y agrupa. Con impuestos fijos, a mayúscula es ce sub cero menos ce sub uno por te mayúscula, más be sub cero, más ge. A minúscula es uno menos ce sub uno menos be sub uno. Con impuestos proporcionales, a mayúscula es ce sub cero más be sub cero más ge; a minúscula es uno menos ce sub uno por uno menos te minúscula, menos be sub uno. Cada régimen conserva su propia función de consumo.",
+        "La ecuación se reduce a a minúscula por ye igual a a mayúscula menos be sub dos por i. Para despejar la tasa, divide a mayúscula por be sub dos y resta a minúscula dividido por be sub dos, por ye. Con financiamiento interno e impuestos fijos, a mayúscula es cuatrocientos catorce y a minúscula es cero coma veintisiete."
+      ],
+      "audio": "assets/audio/diapositiva-09.mp3",
+      "duration": 63.956542,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.487179487179487,
+          "kind": "heading",
+          "text": "Reunir los términos de Y permite despejar IS"
+        },
+        {
+          "start": 3.487179487179487,
+          "end": 3.967948717948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.967948717948718,
+          "end": 19.63409455128205,
+          "kind": "speech",
+          "text": "Sustituye las funciones en la condición de bienes. Esta diapositiva usa impuestos fijos: el consumo queda ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Añadimos la inversión completa y el gasto público. Te se mantiene en doscientos cuarenta."
+        },
+        {
+          "start": 19.63409455128205,
+          "end": 19.82640224358974,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.82640224358974,
+          "end": 20.066786858974357,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.066786858974357,
+          "end": 40.47003205128204,
+          "kind": "speech",
+          "text": "Distribuye la propensión a consumir y agrupa. Con impuestos fijos, a mayúscula es ce sub cero menos ce sub uno por te mayúscula, más be sub cero, más ge. A minúscula es uno menos ce sub uno menos be sub uno. Con impuestos proporcionales, a mayúscula es ce sub cero más be sub cero más ge; a minúscula es uno menos ce sub uno por uno menos te minúscula, menos be sub uno."
+        },
+        {
+          "start": 40.47003205128204,
+          "end": 40.66233974358974,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 40.66233974358974,
+          "end": 44.04983974358974,
+          "kind": "speech",
+          "text": "Cada régimen conserva su propia función de consumo."
+        },
+        {
+          "start": 44.04983974358974,
+          "end": 44.24214743589744,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 44.24214743589744,
+          "end": 44.48253205128205,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 44.48253205128205,
+          "end": 62.91939102564102,
+          "kind": "speech",
+          "text": "La ecuación se reduce a a minúscula por ye igual a a mayúscula menos be sub dos por i. Para despejar la tasa, divide a mayúscula por be sub dos y resta a minúscula dividido por be sub dos, por ye. Con financiamiento interno e impuestos fijos, a mayúscula es cuatrocientos catorce y a minúscula es cero coma veintisiete."
+        },
+        {
+          "start": 62.91939102564102,
+          "end": 63.11169871794872,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 63.11169871794872,
+          "end": 63.35208333333333,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 63.35208333333333,
+          "end": 63.97708333333334,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "key": "is-build",
+      "title": "A menor tasa, mayor producto de equilibrio de bienes",
+      "subtitle": "Cada cruce keynesiano entrega un punto de la misma IS.",
+      "paragraphs": [
+        "En el cruce keynesiano, la recta de cuarenta y cinco grados indica gasto igual a producción. El gasto planeado aumenta con el producto porque crecen consumo e inversión inducida. Una menor tasa eleva la inversión y desplaza hacia arriba ese gasto.",
+        "Con el perfil de financiamiento interno e impuestos fijos, a una tasa de tres por ciento el producto de equilibrio de bienes es mil trescientos treinta y tres coma treinta y tres. A cinco por ciento vuelve a mil doscientos. A siete por ciento es mil sesenta y seis coma sesenta y siete.",
+        "Los puntos numerados trasladan esos pares al plano de producto y tasa. Así construimos la i ese, de pendiente negativa. Variar la tasa recorre una misma curva. Variar gasto público, impuestos autónomos o interceptos de gasto cambia su posición. No todos estos puntos equilibran dinero: todavía falta la otra condición."
+      ],
+      "audio": "assets/audio/diapositiva-10.mp3",
+      "duration": 56.853875,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.0358974358974358,
+          "kind": "heading",
+          "text": "A menor tasa, mayor producto de equilibrio de bienes"
+        },
+        {
+          "start": 3.0358974358974358,
+          "end": 3.5166666666666666,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.5166666666666666,
+          "end": 18.903004807692305,
+          "kind": "speech",
+          "text": "En el cruce keynesiano, la recta de cuarenta y cinco grados indica gasto igual a producción. El gasto planeado aumenta con el producto porque crecen consumo e inversión inducida. Una menor tasa eleva la inversión y desplaza hacia arriba ese gasto."
+        },
+        {
+          "start": 18.903004807692305,
+          "end": 19.0953125,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.0953125,
+          "end": 19.335697115384615,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.335697115384615,
+          "end": 35.81798878205128,
+          "kind": "speech",
+          "text": "Con el perfil de financiamiento interno e impuestos fijos, a una tasa de tres por ciento el producto de equilibrio de bienes es mil trescientos treinta y tres coma treinta y tres. A cinco por ciento vuelve a mil doscientos. A siete por ciento es mil sesenta y seis coma sesenta y siete."
+        },
+        {
+          "start": 35.81798878205128,
+          "end": 36.01029647435898,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.01029647435898,
+          "end": 36.250681089743594,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.250681089743594,
+          "end": 55.81666666666667,
+          "kind": "speech",
+          "text": "Los puntos numerados trasladan esos pares al plano de producto y tasa. Así construimos la i ese, de pendiente negativa. Variar la tasa recorre una misma curva. Variar gasto público, impuestos autónomos o interceptos de gasto cambia su posición. No todos estos puntos equilibran dinero: todavía falta la otra condición."
+        },
+        {
+          "start": 55.81666666666667,
+          "end": 56.00897435897436,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 56.00897435897436,
+          "end": 56.24935897435898,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 56.24935897435898,
+          "end": 56.87435897435898,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "key": "convergence",
+      "title": "a > 0 sostiene la pendiente usual y las rondas de gasto",
+      "subtitle": "No demuestra la estabilidad dinámica del sistema completo.",
+      "paragraphs": [
+        "Con impuestos fijos y financiamiento interno, cada ronda de ingreso genera cero coma sesenta y cinco de consumo y cero coma cero ocho de inversión inducida. En total, cero coma setenta y tres vuelve como gasto. Como es menor que uno, las rondas sucesivas disminuyen y su suma converge.",
+        "La parte restante es a minúscula, cero coma veintisiete. Su inverso es el multiplicador del mercado de bienes con tasa constante. La pendiente de i ese es menos a minúscula dividido por be sub dos. En este caso es menos cero coma cero uno cinco.",
+        "Si a minúscula deja de ser positiva, perdemos esta interpretación habitual. Pero tener a positiva no basta para demostrar estabilidad dinámica de todo i ese ele eme. Para eso se necesitan reglas explícitas de ajuste de producción, inventarios y tasa."
+      ],
+      "audio": "assets/audio/diapositiva-11.mp3",
+      "duration": 53.083542,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.5076923076923077,
+          "kind": "heading",
+          "text": "a > 0 sostiene la pendiente usual y las rondas de gasto"
+        },
+        {
+          "start": 3.5076923076923077,
+          "end": 3.988461538461538,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.988461538461538,
+          "end": 21.341065705128205,
+          "kind": "speech",
+          "text": "Con impuestos fijos y financiamiento interno, cada ronda de ingreso genera cero coma sesenta y cinco de consumo y cero coma cero ocho de inversión inducida. En total, cero coma setenta y tres vuelve como gasto. Como es menor que uno, las rondas sucesivas disminuyen y su suma converge."
+        },
+        {
+          "start": 21.341065705128205,
+          "end": 21.5333733974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 21.5333733974359,
+          "end": 21.77375801282051,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 21.77375801282051,
+          "end": 36.214182692307695,
+          "kind": "speech",
+          "text": "La parte restante es a minúscula, cero coma veintisiete. Su inverso es el multiplicador del mercado de bienes con tasa constante. La pendiente de i ese es menos a minúscula dividido por be sub dos. En este caso es menos cero coma cero uno cinco."
+        },
+        {
+          "start": 36.214182692307695,
+          "end": 36.40649038461539,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.40649038461539,
+          "end": 36.646875,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.646875,
+          "end": 52.046113782051286,
+          "kind": "speech",
+          "text": "Si a minúscula deja de ser positiva, perdemos esta interpretación habitual. Pero tener a positiva no basta para demostrar estabilidad dinámica de todo i ese ele eme. Para eso se necesitan reglas explícitas de ajuste de producción, inventarios y tasa."
+        },
+        {
+          "start": 52.046113782051286,
+          "end": 52.23842147435898,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 52.23842147435898,
+          "end": 52.4788060897436,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 52.4788060897436,
+          "end": 53.10380608974359,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "key": "tax-question",
+      "title": "Predice antes de comparar impuestos",
+      "subtitle": "¿Con qué régimen responderá más Y al mismo G + 60?",
+      "paragraphs": [
+        "Dos economías comparten producto de mil doscientos, tasa de cinco por ciento e impuestos de doscientos cuarenta. Una mantiene fijo el impuesto autónomo. La otra recauda veinte por ciento del ingreso, sin componente autónomo.",
+        "En ambas aumenta el gasto público en sesenta y el dinero real permanece constante. Antes de mirar la solución, predice: ¿el producto aumentará más con impuestos fijos o con impuestos proporcionales? ¿Qué pasará con la recaudación cuando crezca el ingreso?",
+        "Usa la pausa para escribir una explicación. El mismo equilibrio inicial no implica la misma respuesta fuera de ese punto."
+      ],
+      "pause": 8,
+      "pausePurpose": "Predice el cambio de Y y de la recaudación. La solución está en la diapositiva siguiente.",
+      "audio": "assets/audio/diapositiva-12.mp3",
+      "duration": 49.67675,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.566025641025641,
+          "kind": "heading",
+          "text": "Predice antes de comparar impuestos"
+        },
+        {
+          "start": 3.566025641025641,
+          "end": 4.046794871794872,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.046794871794872,
+          "end": 17.36221955128205,
+          "kind": "speech",
+          "text": "Dos economías comparten producto de mil doscientos, tasa de cinco por ciento e impuestos de doscientos cuarenta. Una mantiene fijo el impuesto autónomo. La otra recauda veinte por ciento del ingreso, sin componente autónomo."
+        },
+        {
+          "start": 17.36221955128205,
+          "end": 17.554527243589742,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.554527243589742,
+          "end": 17.794911858974356,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.794911858974356,
+          "end": 32.850480769230764,
+          "kind": "speech",
+          "text": "En ambas aumenta el gasto público en sesenta y el dinero real permanece constante. Antes de mirar la solución, predice: ¿el producto aumentará más con impuestos fijos o con impuestos proporcionales? ¿Qué pasará con la recaudación cuando crezca el ingreso?"
+        },
+        {
+          "start": 32.850480769230764,
+          "end": 33.04278846153846,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.04278846153846,
+          "end": 33.28317307692308,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.28317307692308,
+          "end": 40.6390625,
+          "kind": "speech",
+          "text": "Usa la pausa para escribir una explicación. El mismo equilibrio inicial no implica la misma respuesta fuera de ese punto."
+        },
+        {
+          "start": 40.6390625,
+          "end": 40.831370192307695,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 40.831370192307695,
+          "end": 41.07175480769231,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 41.07175480769231,
+          "end": 49.07175480769231,
+          "kind": "study_pause",
+          "text": "Predice el cambio de Y y de la recaudación. La solución está en la diapositiva siguiente."
+        },
+        {
+          "start": 49.07175480769231,
+          "end": 49.69675480769231,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "key": "tax-compare",
+      "title": "La recaudación proporcional amortigua la expansión",
+      "subtitle": "Mismo perfil, misma base y mismo aumento de G; t no cambia.",
+      "paragraphs": [
+        "Con financiamiento interno e impuestos fijos, el gasto adicional eleva el producto en ochenta y tres coma treinta y tres. Con impuestos proporcionales, el incremento es setenta coma cincuenta y nueve. Las escalas de ambos gráficos son iguales.",
+        "En el régimen fijo, los impuestos siguen en doscientos cuarenta. En el proporcional, aumentan en catorce coma doce porque la recaudación adicional es cero coma veinte por el cambio del producto. El ingreso disponible aumenta solo en el ochenta por ciento del aumento de ye.",
+        "La respuesta del consumo se amortigua: cada unidad adicional de producto genera cero coma cincuenta y dos de consumo, frente a cero coma sesenta y cinco con impuesto fijo. Por eso a minúscula aumenta, la i ese se hace más inclinada y el multiplicador fiscal conjunto disminuye."
+      ],
+      "audio": "assets/audio/diapositiva-13.mp3",
+      "duration": 52.23225,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.076923076923077,
+          "kind": "heading",
+          "text": "La recaudación proporcional amortigua la expansión"
+        },
+        {
+          "start": 3.076923076923077,
+          "end": 3.557692307692308,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.557692307692308,
+          "end": 17.898116987179485,
+          "kind": "speech",
+          "text": "Con financiamiento interno e impuestos fijos, el gasto adicional eleva el producto en ochenta y tres coma treinta y tres. Con impuestos proporcionales, el incremento es setenta coma cincuenta y nueve. Las escalas de ambos gráficos son iguales."
+        },
+        {
+          "start": 17.898116987179485,
+          "end": 18.090424679487178,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 18.090424679487178,
+          "end": 18.33080929487179,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 18.33080929487179,
+          "end": 34.135176282051276,
+          "kind": "speech",
+          "text": "En el régimen fijo, los impuestos siguen en doscientos cuarenta. En el proporcional, aumentan en catorce coma doce porque la recaudación adicional es cero coma veinte por el cambio del producto. El ingreso disponible aumenta solo en el ochenta por ciento del aumento de ye."
+        },
+        {
+          "start": 34.135176282051276,
+          "end": 34.32748397435898,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.32748397435898,
+          "end": 34.56786858974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.56786858974359,
+          "end": 51.194751602564104,
+          "kind": "speech",
+          "text": "La respuesta del consumo se amortigua: cada unidad adicional de producto genera cero coma cincuenta y dos de consumo, frente a cero coma sesenta y cinco con impuesto fijo. Por eso a minúscula aumenta, la i ese se hace más inclinada y el multiplicador fiscal conjunto disminuye."
+        },
+        {
+          "start": 51.194751602564104,
+          "end": 51.3870592948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.3870592948718,
+          "end": 51.62744391025641,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.62744391025641,
+          "end": 52.25244391025641,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "key": "automatic",
+      "title": "Más recaudación no implica una nueva subida de impuestos",
+      "subtitle": "Ahorro público, consumo y producto responden con significados distintos.",
+      "paragraphs": [
+        "El estabilizador es automático porque cambia la recaudación al cambiar el ingreso, manteniendo constante la tasa tributaria. Una decisión discrecional sería modificar el impuesto autónomo o la tasa marginal. No hicimos ninguna de esas dos cosas en esta comparación.",
+        "Con impuesto fijo, el ahorro público pasa de cero a menos sesenta: el nuevo gasto supera la recaudación en sesenta. Con el régimen proporcional, el ahorro público final es menos cuarenta y cinco coma ochenta y ocho. La recaudación adicional cubre parte del gasto.",
+        "En una contracción, el mecanismo opera al revés: cae la recaudación y amortigua la caída del ingreso disponible. Este resultado no permite elegir por sí solo un régimen tributario superior. No evaluamos distribución, servicios públicos ni bienestar."
+      ],
+      "audio": "assets/audio/diapositiva-14.mp3",
+      "duration": 52.655542,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.323076923076923,
+          "kind": "heading",
+          "text": "Más recaudación no implica una nueva subida de impuestos"
+        },
+        {
+          "start": 3.323076923076923,
+          "end": 3.8038461538461537,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.8038461538461537,
+          "end": 19.913982371794873,
+          "kind": "speech",
+          "text": "El estabilizador es automático porque cambia la recaudación al cambiar el ingreso, manteniendo constante la tasa tributaria. Una decisión discrecional sería modificar el impuesto autónomo o la tasa marginal. No hicimos ninguna de esas dos cosas en esta comparación."
+        },
+        {
+          "start": 19.913982371794873,
+          "end": 20.106290064102563,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.106290064102563,
+          "end": 20.34667467948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.34667467948718,
+          "end": 36.3723157051282,
+          "kind": "speech",
+          "text": "Con impuesto fijo, el ahorro público pasa de cero a menos sesenta: el nuevo gasto supera la recaudación en sesenta. Con el régimen proporcional, el ahorro público final es menos cuarenta y cinco coma ochenta y ocho. La recaudación adicional cubre parte del gasto."
+        },
+        {
+          "start": 36.3723157051282,
+          "end": 36.564623397435895,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.564623397435895,
+          "end": 36.805008012820515,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.805008012820515,
+          "end": 51.6181891025641,
+          "kind": "speech",
+          "text": "En una contracción, el mecanismo opera al revés: cae la recaudación y amortigua la caída del ingreso disponible. Este resultado no permite elegir por sí solo un régimen tributario superior. No evaluamos distribución, servicios públicos ni bienestar."
+        },
+        {
+          "start": 51.6181891025641,
+          "end": 51.8104967948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.8104967948718,
+          "end": 52.050881410256416,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 52.050881410256416,
+          "end": 52.675881410256416,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "key": "joint",
+      "title": "Un mismo par debe satisfacer IS y LM",
+      "subtitle": "Sustituimos la tasa monetaria en el equilibrio de bienes.",
+      "paragraphs": [
+        "La i ese exige a minúscula por ye igual a a mayúscula menos be sub dos por i. La ele eme exige i igual a ka por ye menos saldos reales, dividido por hache. Sustituye esta segunda expresión en la primera.",
+        "El término de producto que proviene de la tasa pasa al lado izquierdo. Definimos de mayúscula como a minúscula más be sub dos por ka dividido por hache. El producto conjunto es a mayúscula más be sub dos dividido por hache por los saldos reales, todo dividido por de mayúscula.",
+        "Después de gasto público más sesenta, con financiamiento interno e impuesto fijo, a mayúscula es cuatrocientos setenta y cuatro y de mayúscula es cero coma setenta y dos. El producto final es mil doscientos ochenta y tres coma treinta y tres y la tasa es siete coma cero ocho por ciento. Ahora debemos reconstruir y comprobar todas las cuentas."
+      ],
+      "audio": "assets/audio/diapositiva-15.mp3",
+      "duration": 54.361958,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 4.1692307692307695,
+          "kind": "heading",
+          "text": "Un mismo par debe satisfacer IS y LM"
+        },
+        {
+          "start": 4.1692307692307695,
+          "end": 4.65,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.65,
+          "end": 16.81622596153846,
+          "kind": "speech",
+          "text": "La i ese exige a minúscula por ye igual a a mayúscula menos be sub dos por i. La ele eme exige i igual a ka por ye menos saldos reales, dividido por hache. Sustituye esta segunda expresión en la primera."
+        },
+        {
+          "start": 16.81622596153846,
+          "end": 17.008533653846154,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.008533653846154,
+          "end": 17.248918269230767,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.248918269230767,
+          "end": 33.065224358974355,
+          "kind": "speech",
+          "text": "El término de producto que proviene de la tasa pasa al lado izquierdo. Definimos de mayúscula como a minúscula más be sub dos por ka dividido por hache. El producto conjunto es a mayúscula más be sub dos dividido por hache por los saldos reales, todo dividido por de mayúscula."
+        },
+        {
+          "start": 33.065224358974355,
+          "end": 33.257532051282055,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.257532051282055,
+          "end": 33.49791666666667,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.49791666666667,
+          "end": 53.32327724358974,
+          "kind": "speech",
+          "text": "Después de gasto público más sesenta, con financiamiento interno e impuesto fijo, a mayúscula es cuatrocientos setenta y cuatro y de mayúscula es cero coma setenta y dos. El producto final es mil doscientos ochenta y tres coma treinta y tres y la tasa es siete coma cero ocho por ciento. Ahora debemos reconstruir y comprobar todas las cuentas."
+        },
+        {
+          "start": 53.32327724358974,
+          "end": 53.51558493589744,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 53.51558493589744,
+          "end": 53.75596955128206,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 53.75596955128206,
+          "end": 54.38096955128206,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "key": "accounts",
+      "title": "El ahorro privado no es el ahorro público",
+      "subtitle": "El ahorro nacional suma ambos flujos.",
+      "paragraphs": [
+        "Con el producto final de mil doscientos ochenta y tres coma treinta y tres, los impuestos siguen en doscientos cuarenta. El ingreso disponible es mil cuarenta y tres coma treinta y tres y el consumo es setecientos treinta y ocho coma diecisiete. La inversión completa da doscientos cuarenta y cinco coma diecisiete.",
+        "El ahorro privado es ingreso menos impuestos menos consumo: trescientos cinco coma diecisiete. El ahorro público es impuestos menos gasto público: menos sesenta. Su suma, el ahorro nacional, es doscientos cuarenta y cinco coma diecisiete.",
+        "El ahorro público puede ser negativo aunque el ahorro privado sea positivo. Son cuentas distintas. El ahorro es un flujo del período; la deuda es un stock. Tampoco debes identificar esta cuenta pública simplificada con un balance fiscal empírico que incluya transferencias, intereses u otras partidas."
+      ],
+      "audio": "assets/audio/diapositiva-16.mp3",
+      "duration": 55.137625,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.4615384615384617,
+          "kind": "heading",
+          "text": "El ahorro privado no es el ahorro público"
+        },
+        {
+          "start": 2.4615384615384617,
+          "end": 2.942307692307692,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 2.942307692307692,
+          "end": 21.1453125,
+          "kind": "speech",
+          "text": "Con el producto final de mil doscientos ochenta y tres coma treinta y tres, los impuestos siguen en doscientos cuarenta. El ingreso disponible es mil cuarenta y tres coma treinta y tres y el consumo es setecientos treinta y ocho coma diecisiete. La inversión completa da doscientos cuarenta y cinco coma diecisiete."
+        },
+        {
+          "start": 21.1453125,
+          "end": 21.337620192307693,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 21.337620192307693,
+          "end": 21.578004807692306,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 21.578004807692306,
+          "end": 35.894591346153845,
+          "kind": "speech",
+          "text": "El ahorro privado es ingreso menos impuestos menos consumo: trescientos cinco coma diecisiete. El ahorro público es impuestos menos gasto público: menos sesenta. Su suma, el ahorro nacional, es doscientos cuarenta y cinco coma diecisiete."
+        },
+        {
+          "start": 35.894591346153845,
+          "end": 36.086899038461546,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.086899038461546,
+          "end": 36.32728365384616,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.32728365384616,
+          "end": 54.09995993589744,
+          "kind": "speech",
+          "text": "El ahorro público puede ser negativo aunque el ahorro privado sea positivo. Son cuentas distintas. El ahorro es un flujo del período; la deuda es un stock. Tampoco debes identificar esta cuenta pública simplificada con un balance fiscal empírico que incluya transferencias, intereses u otras partidas."
+        },
+        {
+          "start": 54.09995993589744,
+          "end": 54.29226762820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.29226762820513,
+          "end": 54.532652243589745,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.532652243589745,
+          "end": 55.157652243589745,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "key": "checks",
+      "title": "Tres sustituciones cierran las cuentas",
+      "subtitle": "Bienes, dinero y ahorro deben usar exactamente el mismo Y e i.",
+      "paragraphs": [
+        "Primera comprobación: suma consumo, inversión y gasto público. El resultado debe ser el producto que resolviste. Segunda comprobación: sustituye el mismo producto y la misma tasa en la demanda de dinero. Debe coincidir con cuatrocientos de saldos reales.",
+        "Tercera comprobación: suma ahorro privado y ahorro público. En esta economía cerrada, en equilibrio de bienes, el ahorro nacional coincide con la inversión. Al sumar las definiciones de ahorro, los impuestos se cancelan; queda ingreso menos consumo menos gasto público.",
+        "Las tablas conservan precisión interna y redondean solo al mostrar. Un residuo prácticamente nulo confirma consistencia algebraica. No demuestra que los parámetros representen a una economía real ni establece por sí solo una dirección causal entre ahorro e inversión."
+      ],
+      "audio": "assets/audio/diapositiva-17.mp3",
+      "duration": 52.18225,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.338461538461538,
+          "kind": "heading",
+          "text": "Tres sustituciones cierran las cuentas"
+        },
+        {
+          "start": 2.338461538461538,
+          "end": 2.819230769230769,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 2.819230769230769,
+          "end": 18.164302884615385,
+          "kind": "speech",
+          "text": "Primera comprobación: suma consumo, inversión y gasto público. El resultado debe ser el producto que resolviste. Segunda comprobación: sustituye el mismo producto y la misma tasa en la demanda de dinero. Debe coincidir con cuatrocientos de saldos reales."
+        },
+        {
+          "start": 18.164302884615385,
+          "end": 18.356610576923078,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 18.356610576923078,
+          "end": 18.59699519230769,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 18.59699519230769,
+          "end": 34.318429487179486,
+          "kind": "speech",
+          "text": "Tercera comprobación: suma ahorro privado y ahorro público. En esta economía cerrada, en equilibrio de bienes, el ahorro nacional coincide con la inversión. Al sumar las definiciones de ahorro, los impuestos se cancelan; queda ingreso menos consumo menos gasto público."
+        },
+        {
+          "start": 34.318429487179486,
+          "end": 34.51073717948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.51073717948718,
+          "end": 34.7511217948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.7511217948718,
+          "end": 51.14503205128205,
+          "kind": "speech",
+          "text": "Las tablas conservan precisión interna y redondean solo al mostrar. Un residuo prácticamente nulo confirma consistencia algebraica. No demuestra que los parámetros representen a una economía real ni establece por sí solo una dirección causal entre ahorro e inversión."
+        },
+        {
+          "start": 51.14503205128205,
+          "end": 51.33733974358975,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.33733974358975,
+          "end": 51.577724358974365,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.577724358974365,
+          "end": 52.202724358974365,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "key": "multipliers",
+      "title": "Cada multiplicador responde una pregunta diferente",
+      "subtitle": "No confundas gasto, dinero real y dinero nominal.",
+      "paragraphs": [
+        "Con la tasa constante, el multiplicador de gasto del mercado de bienes es uno dividido por a minúscula. En equilibrio conjunto con dinero real fijo, el multiplicador fiscal es uno dividido por de mayúscula. La diferencia proviene de la respuesta de la tasa.",
+        "El efecto del dinero real sobre el producto es be sub dos dividido por hache, todo dividido por de mayúscula. Para dinero nominal con precios fijos, añade uno dividido por pe. Las unidades cambian: una unidad de stock real no es una unidad de dinero nominal.",
+        "En financiamiento interno e impuesto fijo, el multiplicador de bienes es tres coma siete, el fiscal conjunto es uno coma treinta y nueve, la respuesta a dinero real es uno coma cincuenta y seis y a dinero nominal es cero coma setenta y ocho. Son respuestas locales por unidad del instrumento, no el tamaño del shock."
+      ],
+      "audio": "assets/audio/diapositiva-18.mp3",
+      "duration": 55.330083,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 4.278205128205128,
+          "kind": "heading",
+          "text": "Cada multiplicador responde una pregunta diferente"
+        },
+        {
+          "start": 4.278205128205128,
+          "end": 4.758974358974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.758974358974359,
+          "end": 20.112700320512822,
+          "kind": "speech",
+          "text": "Con la tasa constante, el multiplicador de gasto del mercado de bienes es uno dividido por a minúscula. En equilibrio conjunto con dinero real fijo, el multiplicador fiscal es uno dividido por de mayúscula. La diferencia proviene de la respuesta de la tasa."
+        },
+        {
+          "start": 20.112700320512822,
+          "end": 20.30500801282051,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.30500801282051,
+          "end": 20.54539262820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.54539262820513,
+          "end": 35.60144230769231,
+          "kind": "speech",
+          "text": "El efecto del dinero real sobre el producto es be sub dos dividido por hache, todo dividido por de mayúscula. Para dinero nominal con precios fijos, añade uno dividido por pe. Las unidades cambian: una unidad de stock real no es una unidad de dinero nominal."
+        },
+        {
+          "start": 35.60144230769231,
+          "end": 35.79375,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.79375,
+          "end": 36.034134615384616,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 36.034134615384616,
+          "end": 54.292427884615385,
+          "kind": "speech",
+          "text": "En financiamiento interno e impuesto fijo, el multiplicador de bienes es tres coma siete, el fiscal conjunto es uno coma treinta y nueve, la respuesta a dinero real es uno coma cincuenta y seis y a dinero nominal es cero coma setenta y ocho. Son respuestas locales por unidad del instrumento, no el tamaño del shock."
+        },
+        {
+          "start": 54.292427884615385,
+          "end": 54.48473557692308,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.48473557692308,
+          "end": 54.7251201923077,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.7251201923077,
+          "end": 55.35012019230769,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": 5,
+      "key": "fiscal",
+      "title": "La respuesta a tasa fija supera la expansión conjunta",
+      "subtitle": "La diferencia de producto no es el cambio neto de inversión.",
+      "paragraphs": [
+        "Con gasto público más sesenta, el cálculo a tasa fija da un aumento de producto de doscientos veintidós coma veintidós. Al imponer el equilibrio monetario, el aumento es ochenta y tres coma treinta y tres. La diferencia es ciento treinta y ocho coma ochenta y nueve.",
+        "En el segundo experimento, el mayor producto eleva la demanda de dinero y la tasa debe subir a lo largo de ele eme. Esa tasa más alta reduce un componente de la inversión y modera las rondas de gasto.",
+        "Para que la primera expansión mantuviera la tasa y equilibrara también dinero, la oferta real tendría que acomodarse. Ese es otro cierre del modelo. Nombrar las condiciones que permanecen fijas evita presentar ambos cálculos como si fueran el mismo experimento."
+      ],
+      "audio": "assets/audio/diapositiva-19.mp3",
+      "duration": 48.614917,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.405128205128205,
+          "kind": "heading",
+          "text": "La respuesta a tasa fija supera la expansión conjunta"
+        },
+        {
+          "start": 3.405128205128205,
+          "end": 3.885897435897436,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.885897435897436,
+          "end": 19.596514423076922,
+          "kind": "speech",
+          "text": "Con gasto público más sesenta, el cálculo a tasa fija da un aumento de producto de doscientos veintidós coma veintidós. Al imponer el equilibrio monetario, el aumento es ochenta y tres coma treinta y tres. La diferencia es ciento treinta y ocho coma ochenta y nueve."
+        },
+        {
+          "start": 19.596514423076922,
+          "end": 19.788822115384615,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.788822115384615,
+          "end": 20.02920673076923,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.02920673076923,
+          "end": 31.844671474358975,
+          "kind": "speech",
+          "text": "En el segundo experimento, el mayor producto eleva la demanda de dinero y la tasa debe subir a lo largo de ele eme. Esa tasa más alta reduce un componente de la inversión y modera las rondas de gasto."
+        },
+        {
+          "start": 31.844671474358975,
+          "end": 32.03697916666667,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 32.03697916666667,
+          "end": 32.27736378205129,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 32.27736378205129,
+          "end": 47.57704326923078,
+          "kind": "speech",
+          "text": "Para que la primera expansión mantuviera la tasa y equilibrara también dinero, la oferta real tendría que acomodarse. Ese es otro cierre del modelo. Nombrar las condiciones que permanecen fijas evita presentar ambos cálculos como si fueran el mismo experimento."
+        },
+        {
+          "start": 47.57704326923078,
+          "end": 47.76935096153847,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 47.76935096153847,
+          "end": 48.009735576923084,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 48.009735576923084,
+          "end": 48.634735576923084,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": 5,
+      "key": "monetary",
+      "title": "Más dinero real eleva Y y reduce i",
+      "subtitle": "M/P + 40 equivale a M + 80 cuando P = 2.",
+      "paragraphs": [
+        "Ahora partimos otra vez de la base. No acumulamos el aumento de gasto público. Conservamos política fiscal y precios, y elevamos los saldos reales en cuarenta. El dinero nominal aumenta de ochocientos a ochocientos ochenta.",
+        "Ele eme se desplaza hacia abajo y a la derecha. El nuevo equilibrio recorre la misma i ese. En financiamiento interno e impuesto fijo, el producto aumenta sesenta y dos coma cinco y la tasa final es cuatro coma cero seis por ciento. La inversión aumenta veintiuno coma ochenta y ocho.",
+        "Aumentar dinero nominal en cuarenta tendría la mitad de la respuesta porque el precio es dos. El dinero no entra directamente en a mayúscula: opera a través de la tasa y la inversión. La expansión del producto recupera parte de la demanda transaccional de dinero."
+      ],
+      "audio": "assets/audio/diapositiva-20.mp3",
+      "duration": 50.844833,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.81025641025641,
+          "kind": "heading",
+          "text": "Más dinero real eleva Y y reduce i"
+        },
+        {
+          "start": 2.81025641025641,
+          "end": 3.291025641025641,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.291025641025641,
+          "end": 17.014783653846155,
+          "kind": "speech",
+          "text": "Ahora partimos otra vez de la base. No acumulamos el aumento de gasto público. Conservamos política fiscal y precios, y elevamos los saldos reales en cuarenta. El dinero nominal aumenta de ochocientos a ochocientos ochenta."
+        },
+        {
+          "start": 17.014783653846155,
+          "end": 17.207091346153845,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.207091346153845,
+          "end": 17.447475961538462,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.447475961538462,
+          "end": 34.28096955128205,
+          "kind": "speech",
+          "text": "Ele eme se desplaza hacia abajo y a la derecha. El nuevo equilibrio recorre la misma i ese. En financiamiento interno e impuesto fijo, el producto aumenta sesenta y dos coma cinco y la tasa final es cuatro coma cero seis por ciento. La inversión aumenta veintiuno coma ochenta y ocho."
+        },
+        {
+          "start": 34.28096955128205,
+          "end": 34.47327724358975,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.47327724358975,
+          "end": 34.71366185897436,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.71366185897436,
+          "end": 49.80737179487179,
+          "kind": "speech",
+          "text": "Aumentar dinero nominal en cuarenta tendría la mitad de la respuesta porque el precio es dos. El dinero no entra directamente en a mayúscula: opera a través de la tasa y la inversión. La expansión del producto recupera parte de la demanda transaccional de dinero."
+        },
+        {
+          "start": 49.80737179487179,
+          "end": 49.99967948717949,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 49.99967948717949,
+          "end": 50.240064102564105,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.240064102564105,
+          "end": 50.865064102564105,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": 5,
+      "key": "autonomous-tax",
+      "title": "Una rebaja tributaria no equivale al mismo aumento de G",
+      "subtitle": "Solo una parte de la rebaja se transforma inicialmente en consumo.",
+      "paragraphs": [
+        "Una rebaja de impuesto autónomo de sesenta aumenta el ingreso disponible inicial en sesenta. Con propensión a consumir de cero coma sesenta y cinco, la primera ronda de consumo aumenta treinta y nueve. Los veintiuno restantes son ahorro privado adicional a ingreso dado.",
+        "El efecto conjunto sobre el producto es menos ce sub uno dividido por de mayúscula, multiplicado por el cambio del impuesto. En esta calibración, el aumento de producto es cincuenta y cuatro coma diecisiete. Es menor que con gasto público más sesenta porque el impulso inicial a la demanda es menor.",
+        "Cambiar la tasa proporcional es distinto: modifica a minúscula y el efecto local depende del nivel de producto. Para un cambio finito hay que recalcular el equilibrio. Y si el régimen proporcional puro introduce un impuesto autónomo negativo, ya no es la misma regla pura de la comparación inicial."
+      ],
+      "audio": "assets/audio/diapositiva-21.mp3",
+      "duration": 56.745875,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.487179487179487,
+          "kind": "heading",
+          "text": "Una rebaja tributaria no equivale al mismo aumento de G"
+        },
+        {
+          "start": 3.487179487179487,
+          "end": 3.967948717948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.967948717948718,
+          "end": 20.09627403846154,
+          "kind": "speech",
+          "text": "Una rebaja de impuesto autónomo de sesenta aumenta el ingreso disponible inicial en sesenta. Con propensión a consumir de cero coma sesenta y cinco, la primera ronda de consumo aumenta treinta y nueve. Los veintiuno restantes son ahorro privado adicional a ingreso dado."
+        },
+        {
+          "start": 20.09627403846154,
+          "end": 20.28858173076923,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.28858173076923,
+          "end": 20.528966346153847,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 20.528966346153847,
+          "end": 37.75777243589744,
+          "kind": "speech",
+          "text": "El efecto conjunto sobre el producto es menos ce sub uno dividido por de mayúscula, multiplicado por el cambio del impuesto. En esta calibración, el aumento de producto es cincuenta y cuatro coma diecisiete. Es menor que con gasto público más sesenta porque el impulso inicial a la demanda es menor."
+        },
+        {
+          "start": 37.75777243589744,
+          "end": 37.95008012820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 37.95008012820513,
+          "end": 38.19046474358975,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 38.19046474358975,
+          "end": 55.70789262820513,
+          "kind": "speech",
+          "text": "Cambiar la tasa proporcional es distinto: modifica a minúscula y el efecto local depende del nivel de producto. Para un cambio finito hay que recalcular el equilibrio. Y si el régimen proporcional puro introduce un impuesto autónomo negativo, ya no es la misma regla pura de la comparación inicial."
+        },
+        {
+          "start": 55.70789262820513,
+          "end": 55.90020032051283,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 55.90020032051283,
+          "end": 56.140584935897444,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 56.140584935897444,
+          "end": 56.765584935897444,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": 5,
+      "key": "bank",
+      "title": "La relación entre base y oferta monetaria es otra cápsula",
+      "subtitle": "El multiplicador bancario no es la respuesta de Y al dinero.",
+      "paragraphs": [
+        "La expresión multiplicador monetario también se usa para la relación entre oferta monetaria y base monetaria. En esta cápsula, eme es igual a mu por be. Mu es uno más teta, dividido por teta más ro más e.",
+        "Teta es efectivo sobre depósitos. Ro es reservas requeridas sobre depósitos. E es reservas excedentes sobre depósitos. La oferta monetaria suma efectivo y depósitos; la base suma efectivo y reservas. Al dividir ambas relaciones obtenemos la fórmula.",
+        "Con cocientes dados de cero coma veinte, cero coma diez y cero coma cero cinco, mu es aproximadamente tres coma cuarenta y tres. Esta relación bajo supuestos no describe de forma mecánica toda la política monetaria contemporánea. Crédito, demanda de préstamos, regulación y decisiones de tasa también importan. No la confundimos con el efecto del dinero sobre el producto."
+      ],
+      "audio": "assets/audio/diapositiva-22.mp3",
+      "duration": 55.405208,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.58974358974359,
+          "kind": "heading",
+          "text": "La relación entre base y oferta monetaria es otra cápsula"
+        },
+        {
+          "start": 3.58974358974359,
+          "end": 4.07051282051282,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.07051282051282,
+          "end": 16.342908653846155,
+          "kind": "speech",
+          "text": "La expresión multiplicador monetario también se usa para la relación entre oferta monetaria y base monetaria. En esta cápsula, eme es igual a mu por be. Mu es uno más teta, dividido por teta más ro más e."
+        },
+        {
+          "start": 16.342908653846155,
+          "end": 16.535216346153845,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.535216346153845,
+          "end": 16.775600961538462,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.775600961538462,
+          "end": 32.79150641025641,
+          "kind": "speech",
+          "text": "Teta es efectivo sobre depósitos. Ro es reservas requeridas sobre depósitos. E es reservas excedentes sobre depósitos. La oferta monetaria suma efectivo y depósitos; la base suma efectivo y reservas. Al dividir ambas relaciones obtenemos la fórmula."
+        },
+        {
+          "start": 32.79150641025641,
+          "end": 32.983814102564104,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 32.983814102564104,
+          "end": 33.22419871794872,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.22419871794872,
+          "end": 54.36794871794872,
+          "kind": "speech",
+          "text": "Con cocientes dados de cero coma veinte, cero coma diez y cero coma cero cinco, mu es aproximadamente tres coma cuarenta y tres. Esta relación bajo supuestos no describe de forma mecánica toda la política monetaria contemporánea. Crédito, demanda de préstamos, regulación y decisiones de tasa también importan. No la confundimos con el efecto del dinero sobre el producto."
+        },
+        {
+          "start": 54.36794871794872,
+          "end": 54.560256410256414,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.560256410256414,
+          "end": 54.80064102564103,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 54.80064102564103,
+          "end": 55.42564102564103,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": 6,
+      "key": "investment-question",
+      "title": "¿Puede subir i y aumentar también I?",
+      "subtitle": "Predice el resultado en cada perfil antes de separar sus componentes.",
+      "paragraphs": [
+        "Volvemos al aumento de gasto público de sesenta desde la base, con dinero real fijo. El producto aumenta y la tasa también. Si solo miras la tasa, podrías concluir que la inversión total necesariamente disminuye.",
+        "Pero la función de inversión permanece completa. La inversión cambia por el ingreso y por la tasa. ¿Qué resultado esperas en el perfil de financiamiento interno, con baja sensibilidad al producto y mayor exposición a la tasa? ¿Y en el perfil de mayor sensibilidad al producto y menor exposición efectiva a la tasa interna?",
+        "Escribe ambos signos antes de avanzar. La existencia de un canal negativo por tasa no responde por sí sola la pregunta sobre la inversión total."
+      ],
+      "pause": 8,
+      "pausePurpose": "Predice el signo de ΔI en ambas economías alternativas.",
+      "audio": "assets/audio/diapositiva-23.mp3",
+      "duration": 53.983542,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.353886217948718,
+          "kind": "heading",
+          "text": "¿Puede subir i y aumentar también I?"
+        },
+        {
+          "start": 3.353886217948718,
+          "end": 3.8346554487179487,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.8346554487179487,
+          "end": 16.444671474358977,
+          "kind": "speech",
+          "text": "Volvemos al aumento de gasto público de sesenta desde la base, con dinero real fijo. El producto aumenta y la tasa también. Si solo miras la tasa, podrías concluir que la inversión total necesariamente disminuye."
+        },
+        {
+          "start": 16.444671474358977,
+          "end": 16.636979166666666,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.636979166666666,
+          "end": 16.877363782051283,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.877363782051283,
+          "end": 35.51233974358974,
+          "kind": "speech",
+          "text": "Pero la función de inversión permanece completa. La inversión cambia por el ingreso y por la tasa. ¿Qué resultado esperas en el perfil de financiamiento interno, con baja sensibilidad al producto y mayor exposición a la tasa? ¿Y en el perfil de mayor sensibilidad al producto y menor exposición efectiva a la tasa interna?"
+        },
+        {
+          "start": 35.51233974358974,
+          "end": 35.70464743589744,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.70464743589744,
+          "end": 35.945032051282055,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 35.945032051282055,
+          "end": 44.94595352564102,
+          "kind": "speech",
+          "text": "Escribe ambos signos antes de avanzar. La existencia de un canal negativo por tasa no responde por sí sola la pregunta sobre la inversión total."
+        },
+        {
+          "start": 44.94595352564102,
+          "end": 45.13826121794872,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.13826121794872,
+          "end": 45.37864583333334,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 45.37864583333334,
+          "end": 53.37864583333334,
+          "kind": "study_pause",
+          "text": "Predice el signo de ΔI en ambas economías alternativas."
+        },
+        {
+          "start": 53.37864583333334,
+          "end": 54.00364583333333,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "chapter": 6,
+      "key": "decomposition",
+      "title": "Ingreso y tasa pueden empujar en sentidos opuestos",
+      "subtitle": "ΔI = b₁ΔY − b₂Δi; se mantienen los coeficientes de inversión.",
+      "paragraphs": [
+        "En el perfil de financiamiento interno, el efecto del ingreso es seis coma sesenta y siete. El de la tasa es menos treinta y siete coma cinco. La suma es menos treinta coma ochenta y tres: la inversión total disminuye.",
+        "En el perfil de mayor sensibilidad al producto, el efecto del ingreso es cincuenta y siete coma treinta y nueve y el de la tasa es menos veintiséis coma cero nueve. El cambio neto es treinta y uno coma tres: la inversión aumenta, a pesar de que el canal de la tasa sigue siendo negativo.",
+        "Estas economías son analogías didácticas de pymes y gran minería. El modelo cerrado no incorpora automáticamente crédito global, rentas, precio del cobre, tipo de cambio ni demanda externa. Tampoco sumamos ambas inversiones: estamos comparando dos economías alternativas."
+      ],
+      "audio": "assets/audio/diapositiva-24.mp3",
+      "duration": 51.440375,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.1999999999999997,
+          "kind": "heading",
+          "text": "Ingreso y tasa pueden empujar en sentidos opuestos"
+        },
+        {
+          "start": 3.1999999999999997,
+          "end": 3.6807692307692306,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.6807692307692306,
+          "end": 16.67744391025641,
+          "kind": "speech",
+          "text": "En el perfil de financiamiento interno, el efecto del ingreso es seis coma sesenta y siete. El de la tasa es menos treinta y siete coma cinco. La suma es menos treinta coma ochenta y tres: la inversión total disminuye."
+        },
+        {
+          "start": 16.67744391025641,
+          "end": 16.869751602564104,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.869751602564104,
+          "end": 17.110136217948718,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.110136217948718,
+          "end": 33.38161057692308,
+          "kind": "speech",
+          "text": "En el perfil de mayor sensibilidad al producto, el efecto del ingreso es cincuenta y siete coma treinta y nueve y el de la tasa es menos veintiséis coma cero nueve. El cambio neto es treinta y uno coma tres: la inversión aumenta, a pesar de que el canal de la tasa sigue siendo negativo."
+        },
+        {
+          "start": 33.38161057692308,
+          "end": 33.573918269230774,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.573918269230774,
+          "end": 33.81430288461539,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.81430288461539,
+          "end": 50.40296474358974,
+          "kind": "speech",
+          "text": "Estas economías son analogías didácticas de pymes y gran minería. El modelo cerrado no incorpora automáticamente crédito global, rentas, precio del cobre, tipo de cambio ni demanda externa. Tampoco sumamos ambas inversiones: estamos comparando dos economías alternativas."
+        },
+        {
+          "start": 50.40296474358974,
+          "end": 50.595272435897435,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.595272435897435,
+          "end": 50.835657051282055,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.835657051282055,
+          "end": 51.46065705128205,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": 6,
+      "key": "neutral",
+      "title": "Una condición separa tres signos posibles",
+      "subtitle": "Con M/P constante: ΔI = (b₁ − b₂k/h)ΔY.",
+      "paragraphs": [
+        "En una expansión fiscal con dinero real constante, el cambio de tasa es ka dividido por hache, por el cambio del producto. Sustituye esa relación en la inversión. El coeficiente neto es be sub uno menos be sub dos por ka dividido por hache.",
+        "Para un aumento del producto, la inversión cae si el coeficiente es negativo, aumenta si es positivo y no cambia si es cero. Los perfiles principales tienen coeficientes menos cero coma treinta y siete y más cero coma doce.",
+        "Podemos construir el caso neutral con be sub uno igual a cero coma diez, be sub dos igual a cuatro y be sub cero igual a ciento setenta y seis. Comparte el equilibrio inicial y conserva a positiva. No confundas el efecto por tasa, el cambio neto de inversión y la diferencia de producto respecto de la tasa fija. Son magnitudes distintas."
+      ],
+      "audio": "assets/audio/diapositiva-25.mp3",
+      "duration": 52.430083,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2.6666666666666665,
+          "kind": "heading",
+          "text": "Una condición separa tres signos posibles"
+        },
+        {
+          "start": 2.6666666666666665,
+          "end": 3.1474358974358974,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.1474358974358974,
+          "end": 17.278685897435896,
+          "kind": "speech",
+          "text": "En una expansión fiscal con dinero real constante, el cambio de tasa es ka dividido por hache, por el cambio del producto. Sustituye esa relación en la inversión. El coeficiente neto es be sub uno menos be sub dos por ka dividido por hache."
+        },
+        {
+          "start": 17.278685897435896,
+          "end": 17.47099358974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.47099358974359,
+          "end": 17.711378205128206,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.711378205128206,
+          "end": 31.31862980769231,
+          "kind": "speech",
+          "text": "Para un aumento del producto, la inversión cae si el coeficiente es negativo, aumenta si es positivo y no cambia si es cero. Los perfiles principales tienen coeficientes menos cero coma treinta y siete y más cero coma doce."
+        },
+        {
+          "start": 31.31862980769231,
+          "end": 31.510937500000004,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 31.510937500000004,
+          "end": 31.75132211538462,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 31.75132211538462,
+          "end": 51.39234775641026,
+          "kind": "speech",
+          "text": "Podemos construir el caso neutral con be sub uno igual a cero coma diez, be sub dos igual a cuatro y be sub cero igual a ciento setenta y seis. Comparte el equilibrio inicial y conserva a positiva. No confundas el efecto por tasa, el cambio neto de inversión y la diferencia de producto respecto de la tasa fija. Son magnitudes distintas."
+        },
+        {
+          "start": 51.39234775641026,
+          "end": 51.58465544871795,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.58465544871795,
+          "end": 51.825040064102566,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.825040064102566,
+          "end": 52.450040064102566,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": 6,
+      "key": "accelerator",
+      "title": "El acelerador dinámico responde al cambio de Y",
+      "subtitle": "El término estático b₁Y responde al nivel: no son la misma relación.",
+      "paragraphs": [
+        "En la extensión dinámica, el capital deseado es ve por el producto del período. Si se ajusta completamente y no hay depreciación, la inversión neta es ve por la diferencia entre el producto actual y el anterior.",
+        "Con ve igual a dos, un producto que pasa de mil doscientos a mil doscientos sesenta genera inversión neta de ciento veinte. Si luego el producto se estabiliza en mil doscientos sesenta, la inversión neta cae a cero. Si después baja a mil doscientos treinta, la inversión neta es menos sesenta.",
+        "La reposición por depreciación añadiría compras brutas. Las expectativas modificarían la meta de capital, y el ajuste parcial haría más lenta su consecución. Esta secuencia declara un modelo dinámico distinto. No es una trayectoria temporal deducida de las ecuaciones estáticas de i ese ele eme."
+      ],
+      "audio": "assets/audio/diapositiva-26.mp3",
+      "duration": 52.791583,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.3025641025641024,
+          "kind": "heading",
+          "text": "El acelerador dinámico responde al cambio de Y"
+        },
+        {
+          "start": 3.3025641025641024,
+          "end": 3.783333333333333,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 3.783333333333333,
+          "end": 16.00548878205128,
+          "kind": "speech",
+          "text": "En la extensión dinámica, el capital deseado es ve por el producto del período. Si se ajusta completamente y no hay depreciación, la inversión neta es ve por la diferencia entre el producto actual y el anterior."
+        },
+        {
+          "start": 16.00548878205128,
+          "end": 16.19779647435897,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.19779647435897,
+          "end": 16.438181089743587,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 16.438181089743587,
+          "end": 33.45272435897436,
+          "kind": "speech",
+          "text": "Con ve igual a dos, un producto que pasa de mil doscientos a mil doscientos sesenta genera inversión neta de ciento veinte. Si luego el producto se estabiliza en mil doscientos sesenta, la inversión neta cae a cero. Si después baja a mil doscientos treinta, la inversión neta es menos sesenta."
+        },
+        {
+          "start": 33.45272435897436,
+          "end": 33.64503205128205,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.64503205128205,
+          "end": 33.885416666666664,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.885416666666664,
+          "end": 51.75392628205128,
+          "kind": "speech",
+          "text": "La reposición por depreciación añadiría compras brutas. Las expectativas modificarían la meta de capital, y el ajuste parcial haría más lenta su consecución. Esta secuencia declara un modelo dinámico distinto. No es una trayectoria temporal deducida de las ecuaciones estáticas de i ese ele eme."
+        },
+        {
+          "start": 51.75392628205128,
+          "end": 51.946233974358975,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.946233974358975,
+          "end": 52.18661858974359,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 52.18661858974359,
+          "end": 52.81161858974359,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": 7,
+      "key": "matrix",
+      "title": "Ocho comparaciones parten de bases explícitas",
+      "subtitle": "Dos perfiles × dos regímenes × dos políticas independientes.",
+      "paragraphs": [
+        "La matriz cruza dos perfiles de inversión, dos regímenes tributarios y dos políticas: gasto público más sesenta o dinero real más cuarenta. Cada intervención parte de la base correspondiente. No acumulamos las políticas de filas distintas.",
+        "Para cada caso puedes consultar producto y tasa iniciales y finales, variaciones, consumo, impuestos, inversión y cuentas de ahorro. También aparecen los multiplicadores, la descomposición de inversión y las tres comprobaciones.",
+        "La tabla muestra que el estabilizador proporcional modera la expansión fiscal en ambos perfiles. También muestra que el signo de inversión ante política fiscal cambia entre perfiles. Esos resultados dependen de la calibración. Para reproducirlos, abre los ejercicios; para poner a prueba otra hipótesis, usa el laboratorio."
+      ],
+      "audio": "assets/audio/diapositiva-27.mp3",
+      "duration": 53.631583,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 4.170512820512821,
+          "kind": "heading",
+          "text": "Ocho comparaciones parten de bases explícitas"
+        },
+        {
+          "start": 4.170512820512821,
+          "end": 4.651282051282052,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.651282051282052,
+          "end": 19.275,
+          "kind": "speech",
+          "text": "La matriz cruza dos perfiles de inversión, dos regímenes tributarios y dos políticas: gasto público más sesenta o dinero real más cuarenta. Cada intervención parte de la base correspondiente. No acumulamos las políticas de filas distintas."
+        },
+        {
+          "start": 19.275,
+          "end": 19.467307692307692,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.467307692307692,
+          "end": 19.707692307692305,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 19.707692307692305,
+          "end": 33.251883012820514,
+          "kind": "speech",
+          "text": "Para cada caso puedes consultar producto y tasa iniciales y finales, variaciones, consumo, impuestos, inversión y cuentas de ahorro. También aparecen los multiplicadores, la descomposición de inversión y las tres comprobaciones."
+        },
+        {
+          "start": 33.251883012820514,
+          "end": 33.44419070512821,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.44419070512821,
+          "end": 33.68457532051282,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 33.68457532051282,
+          "end": 52.59358974358974,
+          "kind": "speech",
+          "text": "La tabla muestra que el estabilizador proporcional modera la expansión fiscal en ambos perfiles. También muestra que el signo de inversión ante política fiscal cambia entre perfiles. Esos resultados dependen de la calibración. Para reproducirlos, abre los ejercicios; para poner a prueba otra hipótesis, usa el laboratorio."
+        },
+        {
+          "start": 52.59358974358974,
+          "end": 52.78589743589744,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 52.78589743589744,
+          "end": 53.02628205128205,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 53.02628205128205,
+          "end": 53.65128205128205,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": 7,
+      "key": "judgment",
+      "title": "Una cuenta consistente permite discutir mejor sus límites",
+      "subtitle": "Identidades, resultados paramétricos y preguntas fuera del modelo.",
+      "paragraphs": [
+        "Antes de recomendar una política, explica cuatro cosas. Desde qué equilibrio comparaste. Qué variable exógena cambió. Qué curva se desplazó y sobre cuál se movió el equilibrio. Y qué límite tiene tu conclusión.",
+        "Que el ahorro nacional coincida con la inversión proviene de las definiciones y del equilibrio cerrado de bienes. Que la inversión aumente o disminuya después de una expansión fiscal depende de los parámetros. Que una política sea mejor para el bienestar no puede decidirse con este modelo.",
+        "Has recorrido una cadena desde decisiones de hogares, empresas, gobierno y tenedores de dinero hasta dos mercados y un equilibrio común. Ahora reproduce el cálculo sin la narración, corrige tu predicción si hace falta y redacta un juicio que distinga el resultado de sus supuestos."
+      ],
+      "audio": "assets/audio/diapositiva-28.mp3",
+      "duration": 51.622167,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 3.61025641025641,
+          "kind": "heading",
+          "text": "Una cuenta consistente permite discutir mejor sus límites"
+        },
+        {
+          "start": 3.61025641025641,
+          "end": 4.091025641025642,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 4.091025641025642,
+          "end": 16.850721153846155,
+          "kind": "speech",
+          "text": "Antes de recomendar una política, explica cuatro cosas. Desde qué equilibrio comparaste. Qué variable exógena cambió. Qué curva se desplazó y sobre cuál se movió el equilibrio. Y qué límite tiene tu conclusión."
+        },
+        {
+          "start": 16.850721153846155,
+          "end": 17.043028846153845,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.043028846153845,
+          "end": 17.283413461538462,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 17.283413461538462,
+          "end": 33.85400641025641,
+          "kind": "speech",
+          "text": "Que el ahorro nacional coincida con la inversión proviene de las definiciones y del equilibrio cerrado de bienes. Que la inversión aumente o disminuya después de una expansión fiscal depende de los parámetros. Que una política sea mejor para el bienestar no puede decidirse con este modelo."
+        },
+        {
+          "start": 33.85400641025641,
+          "end": 34.04631410256411,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.04631410256411,
+          "end": 34.286698717948724,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 34.286698717948724,
+          "end": 50.58433493589744,
+          "kind": "speech",
+          "text": "Has recorrido una cadena desde decisiones de hogares, empresas, gobierno y tenedores de dinero hasta dos mercados y un equilibrio común. Ahora reproduce el cálculo sin la narración, corrige tu predicción si hace falta y redacta un juicio que distinga el resultado de sus supuestos."
+        },
+        {
+          "start": 50.58433493589744,
+          "end": 50.77664262820513,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 50.77664262820513,
+          "end": 51.017027243589745,
+          "kind": "breath",
+          "text": ""
+        },
+        {
+          "start": 51.017027243589745,
+          "end": 51.642027243589745,
+          "kind": "gap",
+          "text": ""
+        }
+      ]
+    }
+  ]
+}

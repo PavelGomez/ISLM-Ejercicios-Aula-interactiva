@@ -1,0 +1,54 @@
+{
+  "status": "Revisión visual realizada sobre las capturas indicadas",
+  "reviewed": [
+    "notacion-bienes-escritorio.png",
+    "notacion-derivacion-docente.png",
+    "notacion-dinero-movil.png",
+    "notacion-consumo-proporcional-movil.png",
+    "inicio-desktop.png",
+    "lm-desktop.png",
+    "is-desktop.png",
+    "laboratorio-desktop.png",
+    "lm-movil.png",
+    "inversion-movil.png",
+    "laboratorio-movil.png",
+    "inicio-proyeccion.png",
+    "lm-movil-detalle.png",
+    "is-movil-detalle.png",
+    "impuestos-tablet-detalle.png",
+    "impuestos-grises.png",
+    "inversion-escritorio-detalle.png",
+    "laboratorio-mineria-movil-detalle.png",
+    "guia-docente-uso.png",
+    "memoria-docente.png",
+    "registro-verificacion.png",
+    "presentacion-escritorio.png",
+    "presentacion-lm-escritorio.png",
+    "presentacion-movil.png",
+    "presentacion-impuestos-tableta.png",
+    "presentacion-is-movil.png",
+    "presentacion-inversion-movil.png",
+    "presentacion-inversion-grises.png",
+    "presentacion-proyeccion.png"
+  ],
+  "criteria": [
+    "Jerarquía, espaciado y lectura de fórmulas",
+    "Ejes, unidades, posiciones de equilibrio y escalas declaradas",
+    "Etiquetas directas sin recortes ni superposición en las capturas revisadas",
+    "Distinción de curvas por trazos y puntos en escala de grises",
+    "Diseño móvil, tableta, escritorio y proyección"
+  ],
+  "limitations": [
+    "No es una prueba con estudiantes",
+    "No se utilizó lector de pantalla ni dispositivos físicos",
+    "No se verificaron Safari ni Firefox"
+  ],
+  "fixes": [
+    "Proyecciones SVG sin relleno involuntario",
+    "Etiquetas Mᵈ₁, Mᵈ₂ y Mᵈ₃ y puntos separados",
+    "Etiquetas del cruce keynesiano separadas en los dos perfiles",
+    "Espacio para valores negativos en barras móviles",
+    "Controles de perfil completos y tablas anchas señalizadas",
+    "Cierre del glosario con Escape y retorno de foco"
+  ]
+}

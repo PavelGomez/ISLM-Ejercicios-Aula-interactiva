@@ -1,0 +1,9 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),assert=require('node:assert/strict'),vm=require('node:vm');
+const root=path.resolve(__dirname,'..');let links=0,files=0;
+const all=[];function walk(dir=''){for(const e of fs.readdirSync(path.join(root,dir),{withFileTypes:true})){const rel=path.posix.join(dir,e.name);if(['.git','node_modules','audio-cache','models','__pycache__'].includes(e.name))continue;if(e.isDirectory())walk(rel);else all.push(rel);}}walk();
+for(const file of all){const absolute=path.join(root,file);if(/\.(?:html|js|json|py|md)$/.test(file)){const text=fs.readFileSync(absolute,'utf8');assert(!/\/Users\/[^/]+\//.test(text),'Ruta de producción local en '+file);if(file.startsWith('assets/')&&file.endsWith('.js'))new vm.Script(text,{filename:file});if(file.endsWith('.html'))for(const m of text.matchAll(/(?:href|src)="([^"]+)"/g)){const href=m[1];if(/^(https?:|data:|#)/.test(href))continue;const target=path.resolve(root,path.dirname(file),decodeURIComponent(href.split(/[?#]/)[0]));assert(fs.existsSync(target),'Enlace local inexistente: '+file+' → '+href);links++;}}}
+const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/presentation-data.js'),'utf8'),sandbox);const d=sandbox.window.PresentationData;
+assert.equal(d.chapters.length,8);assert.equal(d.scenes.length,28);assert.equal(d.voice,'em_alex');for(const s of d.scenes){assert(s.duration>20);assert(fs.statSync(path.join(root,s.audio)).size>1000);}
+for(const line of fs.readFileSync(path.join(root,'SHA256SUMS.txt'),'utf8').trim().split('\n')){const [,hash,file]=line.match(/^([a-f0-9]{64})  (.+)$/)||[];assert(hash&&file,'Formato SHA-256');assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),hash,'Integridad de '+file);files++;}
+console.log(JSON.stringify({status:'PASS',localLinks:links,sha256Files:files,chapters:8,slides:28,audioFiles:28},null,2));

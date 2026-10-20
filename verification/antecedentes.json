@@ -1,0 +1,42 @@
+[
+  {
+    "path": "antecedentes/outputs/ISLM_Aula_interactiva.html",
+    "sha256": "cebd9354eda06536f8eaf013068e8f77eb41bde360ed1c050412f2e35c2af4d9",
+    "readOnly": true
+  },
+  {
+    "path": "antecedentes/outputs/ISLM_Alumnos/README.md",
+    "sha256": "1a8c0c72b0da681c22a4995f57c92b6f4cdf0dbc48c9a3c9e3c9802b28d3e2ba",
+    "readOnly": true
+  },
+  {
+    "path": "antecedentes/outputs/ISLM_Actividad_completa_docente/docente/Soluciones.md",
+    "sha256": "ed4518192b566fc8fad6136fab9e69eff6e0feb1a71f7949169537476ff51db5",
+    "readOnly": true
+  },
+  {
+    "path": "antecedentes/outputs/ISLM_Aula_verificacion/revision_grafica.json",
+    "sha256": "aa12c3f245dfa4da993298422042c3ab1201371f949aab4fc11432ba1d7d9284",
+    "readOnly": true
+  },
+  {
+    "path": "Macro1_GPT/repo_macrolab_auditoria/macro1/index.html",
+    "sha256": "b5d787166145f74c2db87910623f9a6fb2ff7d7bc83a33016e89372e69c035fe",
+    "readOnly": true
+  },
+  {
+    "path": "Macro1_GPT/repo_macrolab_auditoria/macro1/test_lab_islm.js",
+    "sha256": "50c40260b4ce73e876a84b1132586a32657b39c1a7b818133bcc8d02567a4df8",
+    "readOnly": true
+  },
+  {
+    "path": "Macro1_GPT/07_Produccion_notas/CRITERIO_EDITORIAL_TEXTO.md",
+    "sha256": "1b6b0ece0153c2e65e750f2d6b7fd028ffab0f1d53ededc85bd36faa95f63c88",
+    "readOnly": true
+  },
+  {
+    "path": "Macro1_GPT/07_Produccion_notas/CRITERIO_EDITORIAL_FIGURAS.md",
+    "sha256": "2058400976b72f1f5775595887239844be0e4e56196056e8f7f5bee22298453d",
+    "readOnly": true
+  }
+]

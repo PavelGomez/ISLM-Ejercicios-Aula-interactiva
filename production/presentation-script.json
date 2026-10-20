@@ -1,0 +1,397 @@
+{
+  "title": "IS–LM · Del mecanismo al resultado",
+  "voice": "em_alex",
+  "language": "es",
+  "chapters": [
+    {
+      "id": "base",
+      "index": 0,
+      "title": "Cómo estudiar y desde dónde partimos",
+      "exercise": "inicio"
+    },
+    {
+      "id": "lm",
+      "index": 1,
+      "title": "Cómo nace LM",
+      "exercise": "lm"
+    },
+    {
+      "id": "is",
+      "index": 2,
+      "title": "Cómo nace IS",
+      "exercise": "is"
+    },
+    {
+      "id": "impuestos",
+      "index": 3,
+      "title": "Impuestos y estabilización",
+      "exercise": "impuestos"
+    },
+    {
+      "id": "equilibrio",
+      "index": 4,
+      "title": "Resolver y cerrar las cuentas",
+      "exercise": "equilibrio"
+    },
+    {
+      "id": "politicas",
+      "index": 5,
+      "title": "Instrumentos y multiplicadores",
+      "exercise": "politicas"
+    },
+    {
+      "id": "inversion",
+      "index": 6,
+      "title": "Desplazamiento e inversión",
+      "exercise": "inversion"
+    },
+    {
+      "id": "sintesis",
+      "index": 7,
+      "title": "Comparar y discutir",
+      "exercise": "sintesis"
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "key": "welcome",
+      "title": "Dos mercados, una cadena de ejercicios",
+      "subtitle": "Predice, construye y comprueba antes de recomendar.",
+      "paragraphs": [
+        "Bienvenidas y bienvenidos. Esta clase conserva la forma de trabajo de las aulas anteriores. Puedes escuchar por capítulos, adelantar o retroceder diapositivas, cambiar la velocidad y detenerte para explorar. La reproducción comienza solo cuando pulses Escuchar.",
+        "La presentación es el hilo principal. Los ejercicios desarrollados y el laboratorio la complementan. Al salir para practicar, el audio se pausa. Cuando regreses, conservarás la diapositiva y el instante. El glosario también pausa la narración.",
+        "La pregunta que nos acompañará es esta: ¿puede subir la tasa de interés y también la inversión? Responderemos construyendo un modelo y contrastando dos economías alternativas. Las cifras son calibraciones didácticas; no son estimaciones de Chile."
+      ]
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "key": "map",
+      "title": "Las decisiones se conectan en Y e i",
+      "subtitle": "Bienes y dinero deben compartir el mismo producto y la misma tasa.",
+      "paragraphs": [
+        "Los hogares reciben ingreso, pagan impuestos y eligen consumo y ahorro privado. Las empresas deciden inversión considerando el nivel de actividad y la tasa de interés. El gobierno compra bienes y recauda impuestos.",
+        "En el mercado de bienes buscamos que el gasto planeado coincida con la producción. Esa condición construye la curva i ese. Quienes mantienen dinero demandan liquidez para transacciones y la comparan con el rendimiento de otros activos. La igualdad entre oferta y demanda real de dinero construye ele eme.",
+        "Las curvas se encuentran en un mismo producto, ye, y una misma tasa, i. Las flechas del mapa expresan relaciones del modelo. No establecen por sí solas una trayectoria temporal de ajuste."
+      ]
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "key": "units",
+      "title": "Cinco significa cinco por ciento",
+      "subtitle": "Un punto porcentual no es lo mismo que un aumento relativo de 1 %.",
+      "paragraphs": [
+        "Fijemos las unidades antes de operar. Producto, consumo, inversión, gasto público, impuestos y ahorro son flujos reales por período. La oferta nominal de dinero es un stock. El precio es la cantidad de dinero nominal que cuesta una unidad real. Dividir dinero por precios entrega saldos reales.",
+        "En todas las ecuaciones, i igual a cinco significa cinco por ciento. Pasar de cinco a seis representa un punto porcentual adicional. No escribimos cero coma cero cinco. Los coeficientes de tasa están calibrados con esta convención.",
+        "El modelo supone economía cerrada, precios fijos y capacidad ociosa. Conservamos constantes las expectativas de inflación y las brechas entre tasas relevantes. Todavía no podemos concluir nada sobre inflación, bienestar, empleo o sostenibilidad de deuda."
+      ]
+    },
+    {
+      "id": 4,
+      "chapter": 0,
+      "key": "calibration",
+      "title": "Cuatro casos comparten el mismo equilibrio inicial",
+      "subtitle": "Los interceptos permiten comparar sensibilidades desde una base común.",
+      "paragraphs": [
+        "La base está comprobada. El producto es mil doscientos y la tasa es cinco por ciento. Los impuestos son doscientos cuarenta, tanto con impuestos fijos como con una tasa proporcional de veinte por ciento. El ingreso disponible es novecientos sesenta.",
+        "El consumo es sesenta más cero coma sesenta y cinco por novecientos sesenta: seiscientos ochenta y cuatro. Cada perfil tiene inversión de doscientos setenta y seis. Al sumar doscientos cuarenta de gasto público obtenemos mil doscientos.",
+        "El dinero nominal es ochocientos y el precio es dos: la oferta real es cuatrocientos. La demanda real, eme superíndice de, es cero coma cuarenta por mil doscientos, menos dieciséis por cinco. También da cuatrocientos. Los interceptos de inversión, doscientos setenta y treinta y dos, fueron elegidos para conservar esta referencia. No sumamos ambos perfiles como si fueran sectores de una economía."
+      ]
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "key": "money",
+      "title": "Más ingreso aumenta la demanda de dinero",
+      "subtitle": "La tasa mayor compensa ese aumento cuando M/P permanece fijo.",
+      "paragraphs": [
+        "Partimos del mercado de dinero. La oferta real se escribe eme dividido por pe: eme es la oferta nominal y pe es el precio por unidad real. La demanda real se escribe eme superíndice de, donde de significa demanda. Es igual a de sub uno por ye menos de sub dos por i; de manera equivalente, ka por ye menos hache por i. Ye es el ingreso e i es la tasa de interés. De sub uno y ka nombran el mismo coeficiente positivo: cuánto aumenta la demanda real al subir el ingreso en una unidad. De sub dos y hache nombran el mismo coeficiente positivo: cuánto cae esa demanda al aumentar la tasa en un punto porcentual. Usaremos ka y hache en los cálculos. El equilibrio exige que eme dividido por pe sea igual a la demanda real.",
+        "Mantengamos los saldos reales en cuatrocientos. Si aumenta el ingreso, las personas desean más dinero para transacciones. A la tasa inicial aparece exceso de demanda de dinero. Una tasa mayor aumenta el costo de oportunidad de mantener liquidez y reduce su demanda hasta igualar la oferta.",
+        "No confundas este dinero con gasto del período. Estamos igualando dos stocks reales: la cantidad ofrecida y la cantidad deseada."
+      ]
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "key": "lm-build",
+      "title": "Tres equilibrios monetarios construyen una LM",
+      "subtitle": "Los puntos conservan su tasa al pasar de un gráfico al otro.",
+      "paragraphs": [
+        "Despejemos la tasa. Hache por i es igual a ka por ye menos eme dividido por pe. Al dividir por hache queda i igual a menos saldos reales, dividido por hache, más ka dividido por hache, por ye.",
+        "Con nuestra calibración, i es igual a menos veinticinco más cero coma cero dos cinco por ye. Para un ingreso de mil cuarenta, la tasa es uno por ciento. Para mil doscientos, es cinco. Para mil trescientos sesenta, es nueve.",
+        "En el panel de dinero hay una demanda distinta para cada ingreso y una misma oferta vertical. Trasladamos los pares de ingreso y tasa al segundo panel. Los tres puntos recorren una sola ele eme. La pendiente positiva es ka dividido por hache. No hemos desplazado la oferta monetaria."
+      ]
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "key": "lm-shift",
+      "title": "Cambiar la oferta real desplaza LM",
+      "subtitle": "Cambiar Y recorre la curva; cambiar parámetros modifica su posición o pendiente.",
+      "paragraphs": [
+        "Ahora conserva los demás parámetros y aumenta el dinero nominal de ochocientos a ochocientos ochenta. Con el precio en dos, los saldos reales aumentan de cuatrocientos a cuatrocientos cuarenta. A cada ingreso, la tasa compatible con dinero es menor: ele eme se desplaza hacia abajo y a la derecha.",
+        "Un aumento del precio con dinero nominal fijo reduce los saldos reales y tiene el efecto opuesto. Aumentar ka la hace más inclinada. Aumentar hache cambia la pendiente y el intercepto; no es un desplazamiento paralelo.",
+        "La comparación de precios es entre escenarios de precios dados. No representa una trayectoria de inflación. En el laboratorio puedes reproducir cada cambio de manera aislada."
+      ]
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "key": "goods",
+      "title": "El gasto planeado debe coincidir con la producción",
+      "subtitle": "La inversión permanece completa: responde a Y y a i.",
+      "paragraphs": [
+        "Pasamos al mercado de bienes. Con impuestos netos fijos, el consumo es ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Te mayúscula es el monto fijo de impuestos netos. Con impuestos proporcionales, el consumo es ce sub cero más ce sub uno por ye menos te minúscula por ye, entre paréntesis. Te minúscula es la tasa tributaria y te por ye es la recaudación. Ce sub cero es consumo autónomo y es positivo; ce sub uno es la propensión marginal a consumir y está entre cero y uno. La inversión es be sub cero más be sub uno por ye, menos be sub dos por i. Todos sus coeficientes son mayores que cero.",
+        "Be sub cero es la inversión autónoma. Be sub uno representa inversión inducida por una unidad adicional del nivel de ingreso. Be sub dos mide cuánto se reduce la inversión por cada punto porcentual adicional de la tasa. Los tres coeficientes son positivos en ambos perfiles. El signo negativo del canal de tasa aparece en la función, delante de be sub dos.",
+        "En equilibrio, ye es igual a consumo más inversión planeada más gasto público. La contabilidad realizada incluye inventarios, pero aquí buscamos que no se acumulen inventarios involuntarios. Esa distinción permite pasar de una identidad contable a una condición de equilibrio de los planes."
+      ]
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "key": "is-algebra",
+      "title": "Reunir los términos de Y permite despejar IS",
+      "subtitle": "A reúne gasto autónomo; a recoge la parte no inducida de cada ronda.",
+      "paragraphs": [
+        "Sustituye las funciones en la condición de bienes. Esta diapositiva usa impuestos fijos: el consumo queda ce sub cero más ce sub uno por ye menos te mayúscula, entre paréntesis. Añadimos la inversión completa y el gasto público. Te se mantiene en doscientos cuarenta.",
+        "Distribuye la propensión a consumir y agrupa. Con impuestos fijos, a mayúscula es ce sub cero menos ce sub uno por te mayúscula, más be sub cero, más ge. A minúscula es uno menos ce sub uno menos be sub uno. Con impuestos proporcionales, a mayúscula es ce sub cero más be sub cero más ge; a minúscula es uno menos ce sub uno por uno menos te minúscula, menos be sub uno. Cada régimen conserva su propia función de consumo.",
+        "La ecuación se reduce a a minúscula por ye igual a a mayúscula menos be sub dos por i. Para despejar la tasa, divide a mayúscula por be sub dos y resta a minúscula dividido por be sub dos, por ye. Con financiamiento interno e impuestos fijos, a mayúscula es cuatrocientos catorce y a minúscula es cero coma veintisiete."
+      ]
+    },
+    {
+      "id": 10,
+      "chapter": 2,
+      "key": "is-build",
+      "title": "A menor tasa, mayor producto de equilibrio de bienes",
+      "subtitle": "Cada cruce keynesiano entrega un punto de la misma IS.",
+      "paragraphs": [
+        "En el cruce keynesiano, la recta de cuarenta y cinco grados indica gasto igual a producción. El gasto planeado aumenta con el producto porque crecen consumo e inversión inducida. Una menor tasa eleva la inversión y desplaza hacia arriba ese gasto.",
+        "Con el perfil de financiamiento interno e impuestos fijos, a una tasa de tres por ciento el producto de equilibrio de bienes es mil trescientos treinta y tres coma treinta y tres. A cinco por ciento vuelve a mil doscientos. A siete por ciento es mil sesenta y seis coma sesenta y siete.",
+        "Los puntos numerados trasladan esos pares al plano de producto y tasa. Así construimos la i ese, de pendiente negativa. Variar la tasa recorre una misma curva. Variar gasto público, impuestos autónomos o interceptos de gasto cambia su posición. No todos estos puntos equilibran dinero: todavía falta la otra condición."
+      ]
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "key": "convergence",
+      "title": "a > 0 sostiene la pendiente usual y las rondas de gasto",
+      "subtitle": "No demuestra la estabilidad dinámica del sistema completo.",
+      "paragraphs": [
+        "Con impuestos fijos y financiamiento interno, cada ronda de ingreso genera cero coma sesenta y cinco de consumo y cero coma cero ocho de inversión inducida. En total, cero coma setenta y tres vuelve como gasto. Como es menor que uno, las rondas sucesivas disminuyen y su suma converge.",
+        "La parte restante es a minúscula, cero coma veintisiete. Su inverso es el multiplicador del mercado de bienes con tasa constante. La pendiente de i ese es menos a minúscula dividido por be sub dos. En este caso es menos cero coma cero uno cinco.",
+        "Si a minúscula deja de ser positiva, perdemos esta interpretación habitual. Pero tener a positiva no basta para demostrar estabilidad dinámica de todo i ese ele eme. Para eso se necesitan reglas explícitas de ajuste de producción, inventarios y tasa."
+      ]
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "key": "tax-question",
+      "title": "Predice antes de comparar impuestos",
+      "subtitle": "¿Con qué régimen responderá más Y al mismo G + 60?",
+      "paragraphs": [
+        "Dos economías comparten producto de mil doscientos, tasa de cinco por ciento e impuestos de doscientos cuarenta. Una mantiene fijo el impuesto autónomo. La otra recauda veinte por ciento del ingreso, sin componente autónomo.",
+        "En ambas aumenta el gasto público en sesenta y el dinero real permanece constante. Antes de mirar la solución, predice: ¿el producto aumentará más con impuestos fijos o con impuestos proporcionales? ¿Qué pasará con la recaudación cuando crezca el ingreso?",
+        "Usa la pausa para escribir una explicación. El mismo equilibrio inicial no implica la misma respuesta fuera de ese punto."
+      ],
+      "pause": 8,
+      "pausePurpose": "Predice el cambio de Y y de la recaudación. La solución está en la diapositiva siguiente."
+    },
+    {
+      "id": 13,
+      "chapter": 3,
+      "key": "tax-compare",
+      "title": "La recaudación proporcional amortigua la expansión",
+      "subtitle": "Mismo perfil, misma base y mismo aumento de G; t no cambia.",
+      "paragraphs": [
+        "Con financiamiento interno e impuestos fijos, el gasto adicional eleva el producto en ochenta y tres coma treinta y tres. Con impuestos proporcionales, el incremento es setenta coma cincuenta y nueve. Las escalas de ambos gráficos son iguales.",
+        "En el régimen fijo, los impuestos siguen en doscientos cuarenta. En el proporcional, aumentan en catorce coma doce porque la recaudación adicional es cero coma veinte por el cambio del producto. El ingreso disponible aumenta solo en el ochenta por ciento del aumento de ye.",
+        "La respuesta del consumo se amortigua: cada unidad adicional de producto genera cero coma cincuenta y dos de consumo, frente a cero coma sesenta y cinco con impuesto fijo. Por eso a minúscula aumenta, la i ese se hace más inclinada y el multiplicador fiscal conjunto disminuye."
+      ]
+    },
+    {
+      "id": 14,
+      "chapter": 3,
+      "key": "automatic",
+      "title": "Más recaudación no implica una nueva subida de impuestos",
+      "subtitle": "Ahorro público, consumo y producto responden con significados distintos.",
+      "paragraphs": [
+        "El estabilizador es automático porque cambia la recaudación al cambiar el ingreso, manteniendo constante la tasa tributaria. Una decisión discrecional sería modificar el impuesto autónomo o la tasa marginal. No hicimos ninguna de esas dos cosas en esta comparación.",
+        "Con impuesto fijo, el ahorro público pasa de cero a menos sesenta: el nuevo gasto supera la recaudación en sesenta. Con el régimen proporcional, el ahorro público final es menos cuarenta y cinco coma ochenta y ocho. La recaudación adicional cubre parte del gasto.",
+        "En una contracción, el mecanismo opera al revés: cae la recaudación y amortigua la caída del ingreso disponible. Este resultado no permite elegir por sí solo un régimen tributario superior. No evaluamos distribución, servicios públicos ni bienestar."
+      ]
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "key": "joint",
+      "title": "Un mismo par debe satisfacer IS y LM",
+      "subtitle": "Sustituimos la tasa monetaria en el equilibrio de bienes.",
+      "paragraphs": [
+        "La i ese exige a minúscula por ye igual a a mayúscula menos be sub dos por i. La ele eme exige i igual a ka por ye menos saldos reales, dividido por hache. Sustituye esta segunda expresión en la primera.",
+        "El término de producto que proviene de la tasa pasa al lado izquierdo. Definimos de mayúscula como a minúscula más be sub dos por ka dividido por hache. El producto conjunto es a mayúscula más be sub dos dividido por hache por los saldos reales, todo dividido por de mayúscula.",
+        "Después de gasto público más sesenta, con financiamiento interno e impuesto fijo, a mayúscula es cuatrocientos setenta y cuatro y de mayúscula es cero coma setenta y dos. El producto final es mil doscientos ochenta y tres coma treinta y tres y la tasa es siete coma cero ocho por ciento. Ahora debemos reconstruir y comprobar todas las cuentas."
+      ]
+    },
+    {
+      "id": 16,
+      "chapter": 4,
+      "key": "accounts",
+      "title": "El ahorro privado no es el ahorro público",
+      "subtitle": "El ahorro nacional suma ambos flujos.",
+      "paragraphs": [
+        "Con el producto final de mil doscientos ochenta y tres coma treinta y tres, los impuestos siguen en doscientos cuarenta. El ingreso disponible es mil cuarenta y tres coma treinta y tres y el consumo es setecientos treinta y ocho coma diecisiete. La inversión completa da doscientos cuarenta y cinco coma diecisiete.",
+        "El ahorro privado es ingreso menos impuestos menos consumo: trescientos cinco coma diecisiete. El ahorro público es impuestos menos gasto público: menos sesenta. Su suma, el ahorro nacional, es doscientos cuarenta y cinco coma diecisiete.",
+        "El ahorro público puede ser negativo aunque el ahorro privado sea positivo. Son cuentas distintas. El ahorro es un flujo del período; la deuda es un stock. Tampoco debes identificar esta cuenta pública simplificada con un balance fiscal empírico que incluya transferencias, intereses u otras partidas."
+      ]
+    },
+    {
+      "id": 17,
+      "chapter": 4,
+      "key": "checks",
+      "title": "Tres sustituciones cierran las cuentas",
+      "subtitle": "Bienes, dinero y ahorro deben usar exactamente el mismo Y e i.",
+      "paragraphs": [
+        "Primera comprobación: suma consumo, inversión y gasto público. El resultado debe ser el producto que resolviste. Segunda comprobación: sustituye el mismo producto y la misma tasa en la demanda de dinero. Debe coincidir con cuatrocientos de saldos reales.",
+        "Tercera comprobación: suma ahorro privado y ahorro público. En esta economía cerrada, en equilibrio de bienes, el ahorro nacional coincide con la inversión. Al sumar las definiciones de ahorro, los impuestos se cancelan; queda ingreso menos consumo menos gasto público.",
+        "Las tablas conservan precisión interna y redondean solo al mostrar. Un residuo prácticamente nulo confirma consistencia algebraica. No demuestra que los parámetros representen a una economía real ni establece por sí solo una dirección causal entre ahorro e inversión."
+      ]
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "key": "multipliers",
+      "title": "Cada multiplicador responde una pregunta diferente",
+      "subtitle": "No confundas gasto, dinero real y dinero nominal.",
+      "paragraphs": [
+        "Con la tasa constante, el multiplicador de gasto del mercado de bienes es uno dividido por a minúscula. En equilibrio conjunto con dinero real fijo, el multiplicador fiscal es uno dividido por de mayúscula. La diferencia proviene de la respuesta de la tasa.",
+        "El efecto del dinero real sobre el producto es be sub dos dividido por hache, todo dividido por de mayúscula. Para dinero nominal con precios fijos, añade uno dividido por pe. Las unidades cambian: una unidad de stock real no es una unidad de dinero nominal.",
+        "En financiamiento interno e impuesto fijo, el multiplicador de bienes es tres coma siete, el fiscal conjunto es uno coma treinta y nueve, la respuesta a dinero real es uno coma cincuenta y seis y a dinero nominal es cero coma setenta y ocho. Son respuestas locales por unidad del instrumento, no el tamaño del shock."
+      ]
+    },
+    {
+      "id": 19,
+      "chapter": 5,
+      "key": "fiscal",
+      "title": "La respuesta a tasa fija supera la expansión conjunta",
+      "subtitle": "La diferencia de producto no es el cambio neto de inversión.",
+      "paragraphs": [
+        "Con gasto público más sesenta, el cálculo a tasa fija da un aumento de producto de doscientos veintidós coma veintidós. Al imponer el equilibrio monetario, el aumento es ochenta y tres coma treinta y tres. La diferencia es ciento treinta y ocho coma ochenta y nueve.",
+        "En el segundo experimento, el mayor producto eleva la demanda de dinero y la tasa debe subir a lo largo de ele eme. Esa tasa más alta reduce un componente de la inversión y modera las rondas de gasto.",
+        "Para que la primera expansión mantuviera la tasa y equilibrara también dinero, la oferta real tendría que acomodarse. Ese es otro cierre del modelo. Nombrar las condiciones que permanecen fijas evita presentar ambos cálculos como si fueran el mismo experimento."
+      ]
+    },
+    {
+      "id": 20,
+      "chapter": 5,
+      "key": "monetary",
+      "title": "Más dinero real eleva Y y reduce i",
+      "subtitle": "M/P + 40 equivale a M + 80 cuando P = 2.",
+      "paragraphs": [
+        "Ahora partimos otra vez de la base. No acumulamos el aumento de gasto público. Conservamos política fiscal y precios, y elevamos los saldos reales en cuarenta. El dinero nominal aumenta de ochocientos a ochocientos ochenta.",
+        "Ele eme se desplaza hacia abajo y a la derecha. El nuevo equilibrio recorre la misma i ese. En financiamiento interno e impuesto fijo, el producto aumenta sesenta y dos coma cinco y la tasa final es cuatro coma cero seis por ciento. La inversión aumenta veintiuno coma ochenta y ocho.",
+        "Aumentar dinero nominal en cuarenta tendría la mitad de la respuesta porque el precio es dos. El dinero no entra directamente en a mayúscula: opera a través de la tasa y la inversión. La expansión del producto recupera parte de la demanda transaccional de dinero."
+      ]
+    },
+    {
+      "id": 21,
+      "chapter": 5,
+      "key": "autonomous-tax",
+      "title": "Una rebaja tributaria no equivale al mismo aumento de G",
+      "subtitle": "Solo una parte de la rebaja se transforma inicialmente en consumo.",
+      "paragraphs": [
+        "Una rebaja de impuesto autónomo de sesenta aumenta el ingreso disponible inicial en sesenta. Con propensión a consumir de cero coma sesenta y cinco, la primera ronda de consumo aumenta treinta y nueve. Los veintiuno restantes son ahorro privado adicional a ingreso dado.",
+        "El efecto conjunto sobre el producto es menos ce sub uno dividido por de mayúscula, multiplicado por el cambio del impuesto. En esta calibración, el aumento de producto es cincuenta y cuatro coma diecisiete. Es menor que con gasto público más sesenta porque el impulso inicial a la demanda es menor.",
+        "Cambiar la tasa proporcional es distinto: modifica a minúscula y el efecto local depende del nivel de producto. Para un cambio finito hay que recalcular el equilibrio. Y si el régimen proporcional puro introduce un impuesto autónomo negativo, ya no es la misma regla pura de la comparación inicial."
+      ]
+    },
+    {
+      "id": 22,
+      "chapter": 5,
+      "key": "bank",
+      "title": "La relación entre base y oferta monetaria es otra cápsula",
+      "subtitle": "El multiplicador bancario no es la respuesta de Y al dinero.",
+      "paragraphs": [
+        "La expresión multiplicador monetario también se usa para la relación entre oferta monetaria y base monetaria. En esta cápsula, eme es igual a mu por be. Mu es uno más teta, dividido por teta más ro más e.",
+        "Teta es efectivo sobre depósitos. Ro es reservas requeridas sobre depósitos. E es reservas excedentes sobre depósitos. La oferta monetaria suma efectivo y depósitos; la base suma efectivo y reservas. Al dividir ambas relaciones obtenemos la fórmula.",
+        "Con cocientes dados de cero coma veinte, cero coma diez y cero coma cero cinco, mu es aproximadamente tres coma cuarenta y tres. Esta relación bajo supuestos no describe de forma mecánica toda la política monetaria contemporánea. Crédito, demanda de préstamos, regulación y decisiones de tasa también importan. No la confundimos con el efecto del dinero sobre el producto."
+      ]
+    },
+    {
+      "id": 23,
+      "chapter": 6,
+      "key": "investment-question",
+      "title": "¿Puede subir i y aumentar también I?",
+      "subtitle": "Predice el resultado en cada perfil antes de separar sus componentes.",
+      "paragraphs": [
+        "Volvemos al aumento de gasto público de sesenta desde la base, con dinero real fijo. El producto aumenta y la tasa también. Si solo miras la tasa, podrías concluir que la inversión total necesariamente disminuye.",
+        "Pero la función de inversión permanece completa. La inversión cambia por el ingreso y por la tasa. ¿Qué resultado esperas en el perfil de financiamiento interno, con baja sensibilidad al producto y mayor exposición a la tasa? ¿Y en el perfil de mayor sensibilidad al producto y menor exposición efectiva a la tasa interna?",
+        "Escribe ambos signos antes de avanzar. La existencia de un canal negativo por tasa no responde por sí sola la pregunta sobre la inversión total."
+      ],
+      "pause": 8,
+      "pausePurpose": "Predice el signo de ΔI en ambas economías alternativas."
+    },
+    {
+      "id": 24,
+      "chapter": 6,
+      "key": "decomposition",
+      "title": "Ingreso y tasa pueden empujar en sentidos opuestos",
+      "subtitle": "ΔI = b₁ΔY − b₂Δi; se mantienen los coeficientes de inversión.",
+      "paragraphs": [
+        "En el perfil de financiamiento interno, el efecto del ingreso es seis coma sesenta y siete. El de la tasa es menos treinta y siete coma cinco. La suma es menos treinta coma ochenta y tres: la inversión total disminuye.",
+        "En el perfil de mayor sensibilidad al producto, el efecto del ingreso es cincuenta y siete coma treinta y nueve y el de la tasa es menos veintiséis coma cero nueve. El cambio neto es treinta y uno coma tres: la inversión aumenta, a pesar de que el canal de la tasa sigue siendo negativo.",
+        "Estas economías son analogías didácticas de pymes y gran minería. El modelo cerrado no incorpora automáticamente crédito global, rentas, precio del cobre, tipo de cambio ni demanda externa. Tampoco sumamos ambas inversiones: estamos comparando dos economías alternativas."
+      ]
+    },
+    {
+      "id": 25,
+      "chapter": 6,
+      "key": "neutral",
+      "title": "Una condición separa tres signos posibles",
+      "subtitle": "Con M/P constante: ΔI = (b₁ − b₂k/h)ΔY.",
+      "paragraphs": [
+        "En una expansión fiscal con dinero real constante, el cambio de tasa es ka dividido por hache, por el cambio del producto. Sustituye esa relación en la inversión. El coeficiente neto es be sub uno menos be sub dos por ka dividido por hache.",
+        "Para un aumento del producto, la inversión cae si el coeficiente es negativo, aumenta si es positivo y no cambia si es cero. Los perfiles principales tienen coeficientes menos cero coma treinta y siete y más cero coma doce.",
+        "Podemos construir el caso neutral con be sub uno igual a cero coma diez, be sub dos igual a cuatro y be sub cero igual a ciento setenta y seis. Comparte el equilibrio inicial y conserva a positiva. No confundas el efecto por tasa, el cambio neto de inversión y la diferencia de producto respecto de la tasa fija. Son magnitudes distintas."
+      ]
+    },
+    {
+      "id": 26,
+      "chapter": 6,
+      "key": "accelerator",
+      "title": "El acelerador dinámico responde al cambio de Y",
+      "subtitle": "El término estático b₁Y responde al nivel: no son la misma relación.",
+      "paragraphs": [
+        "En la extensión dinámica, el capital deseado es ve por el producto del período. Si se ajusta completamente y no hay depreciación, la inversión neta es ve por la diferencia entre el producto actual y el anterior.",
+        "Con ve igual a dos, un producto que pasa de mil doscientos a mil doscientos sesenta genera inversión neta de ciento veinte. Si luego el producto se estabiliza en mil doscientos sesenta, la inversión neta cae a cero. Si después baja a mil doscientos treinta, la inversión neta es menos sesenta.",
+        "La reposición por depreciación añadiría compras brutas. Las expectativas modificarían la meta de capital, y el ajuste parcial haría más lenta su consecución. Esta secuencia declara un modelo dinámico distinto. No es una trayectoria temporal deducida de las ecuaciones estáticas de i ese ele eme."
+      ]
+    },
+    {
+      "id": 27,
+      "chapter": 7,
+      "key": "matrix",
+      "title": "Ocho comparaciones parten de bases explícitas",
+      "subtitle": "Dos perfiles × dos regímenes × dos políticas independientes.",
+      "paragraphs": [
+        "La matriz cruza dos perfiles de inversión, dos regímenes tributarios y dos políticas: gasto público más sesenta o dinero real más cuarenta. Cada intervención parte de la base correspondiente. No acumulamos las políticas de filas distintas.",
+        "Para cada caso puedes consultar producto y tasa iniciales y finales, variaciones, consumo, impuestos, inversión y cuentas de ahorro. También aparecen los multiplicadores, la descomposición de inversión y las tres comprobaciones.",
+        "La tabla muestra que el estabilizador proporcional modera la expansión fiscal en ambos perfiles. También muestra que el signo de inversión ante política fiscal cambia entre perfiles. Esos resultados dependen de la calibración. Para reproducirlos, abre los ejercicios; para poner a prueba otra hipótesis, usa el laboratorio."
+      ]
+    },
+    {
+      "id": 28,
+      "chapter": 7,
+      "key": "judgment",
+      "title": "Una cuenta consistente permite discutir mejor sus límites",
+      "subtitle": "Identidades, resultados paramétricos y preguntas fuera del modelo.",
+      "paragraphs": [
+        "Antes de recomendar una política, explica cuatro cosas. Desde qué equilibrio comparaste. Qué variable exógena cambió. Qué curva se desplazó y sobre cuál se movió el equilibrio. Y qué límite tiene tu conclusión.",
+        "Que el ahorro nacional coincida con la inversión proviene de las definiciones y del equilibrio cerrado de bienes. Que la inversión aumente o disminuya después de una expansión fiscal depende de los parámetros. Que una política sea mejor para el bienestar no puede decidirse con este modelo.",
+        "Has recorrido una cadena desde decisiones de hogares, empresas, gobierno y tenedores de dinero hasta dos mercados y un equilibrio común. Ahora reproduce el cálculo sin la narración, corrige tu predicción si hace falta y redacta un juicio que distinga el resultado de sus supuestos."
+      ]
+    }
+  ]
+}

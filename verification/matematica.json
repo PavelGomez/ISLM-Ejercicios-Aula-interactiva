@@ -1,0 +1,7 @@
+{
+  "assertions": 1377,
+  "validPersonalizedCases": 368,
+  "maxResidual": 3.410605131648481e-13,
+  "maxDerivativeError": 1.0863410171424448e-10,
+  "status": "PASS"
+}
