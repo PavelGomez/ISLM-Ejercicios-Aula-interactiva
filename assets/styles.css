@@ -17,3 +17,7 @@
 @media(max-width:650px){.figure .chartprojection{font-size:14px}.figure .equilibrium-label{font-size:15px}}
 
 .figure svg.economic-chart{max-width:650px;margin-inline:auto}.projection-connector{stroke-linejoin:round}
+
+/* Crédito docente común a la plataforma y sus documentos. */
+.teaching-credit{margin:0 0 10px;font-size:13px;line-height:1.7;color:var(--ink);text-wrap:pretty;overflow-wrap:break-word}
+.sitefooter .teaching-credit:last-child{margin-bottom:0}
