@@ -6,4 +6,5 @@ for(const file of all){const absolute=path.join(root,file);if(/\.(?:html|js|json
 const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/presentation-data.js'),'utf8'),sandbox);const d=sandbox.window.PresentationData;
 assert.equal(d.chapters.length,8);assert.equal(d.scenes.length,28);assert.equal(d.voice,'em_alex');for(const s of d.scenes){assert(s.duration>20);assert(fs.statSync(path.join(root,s.audio)).size>1000);}
 for(const line of fs.readFileSync(path.join(root,'SHA256SUMS.txt'),'utf8').trim().split('\n')){const [,hash,file]=line.match(/^([a-f0-9]{64})  (.+)$/)||[];assert(hash&&file,'Formato SHA-256');assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,file))).digest('hex'),hash,'Integridad de '+file);files++;}
+if(fs.existsSync(path.join(root,'verification/graficos.json')))assert.equal(JSON.parse(fs.readFileSync(path.join(root,'verification/graficos.json'),'utf8')).status,'PASS','Verificación de los gráficos');
 console.log(JSON.stringify({status:'PASS',localLinks:links,sha256Files:files,chapters:8,slides:28,audioFiles:28},null,2));

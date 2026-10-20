@@ -1,0 +1,1495 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "width": 1920,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1920,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 1920,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1920,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1920,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1920,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1440,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 1440,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1440,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1440,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1440,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1000,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 1000,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1000,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1000,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 1000,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 820,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 820,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 820,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 820,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 820,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 390,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 390,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 390,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 390,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 390,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "slide",
+      "index": 5,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 360,
+      "kind": "slide",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "slide",
+      "index": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "slide",
+      "index": 12,
+      "figures": 2,
+      "points": 4,
+      "projections": 8
+    },
+    {
+      "width": 360,
+      "kind": "slide",
+      "index": 19,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "money",
+      "Y": 1280,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 360,
+      "kind": "money",
+      "Y": 1360,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 360,
+      "kind": "money",
+      "Y": 1440,
+      "figures": 2,
+      "points": 6,
+      "projections": 12
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "pyme",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "fixed",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 6,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 7,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "goods",
+      "profile": "minera",
+      "tax": "proportional",
+      "rate": 9,
+      "figures": 3,
+      "points": 9,
+      "projections": 18
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 0,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 1,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 2,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 3,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 4,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 5,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 6,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    },
+    {
+      "width": 360,
+      "kind": "scenario",
+      "index": 7,
+      "figures": 1,
+      "points": 2,
+      "projections": 4
+    }
+  ],
+  "failures": [],
+  "assertions": 146124
+}

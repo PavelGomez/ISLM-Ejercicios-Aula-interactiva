@@ -48,3 +48,9 @@ Las pruebas de navegador son opcionales: instala las dependencias de desarrollo 
 GitHub Pages publica la raíz de la rama `main`. Las actualizaciones se verifican antes de subirlas. El audio ya está incluido; su regeneración utiliza dependencias y modelos separados, descritos en [production/README.md](production/README.md).
 
 Conceptualización y dirección: profesor Pável Gómez Valera. Desarrollo con asistencia de IA bajo su dirección conceptual y editorial. Las pruebas automáticas y visuales no sustituyen una evaluación de aprendizaje ni pruebas en teléfonos físicos.
+
+## Corrección de gráficos · v1.0.2
+
+Las proyecciones de cada equilibrio incluyen sus símbolos y valores en los ejes. Las etiquetas próximas se distribuyen con uniones explícitas; los marcadores se dibujan sobre las curvas. El cruce keynesiano muestra una vista ampliada con escala declarada y permite consultar la escala completa desde cero. Abrir esa vista pausa la narración.
+
+La prueba `npm run test:graphs` comprueba posiciones, proyecciones, recortes y cruces entre textos, curvas y uniones en seis tamaños. Su alcance y resultado constan en [verification/graficos.json](verification/graficos.json); también se inspeccionan capturas regeneradas.
